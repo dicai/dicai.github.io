@@ -1,0 +1,36 @@
+# Dependencies
+markdown:         KramdownPygments
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            'topics of interest'
+#title:            'Area under the Curve'
+tagline:          'Diana Cai'
+description:      'on machine learning, statistics, computer science, and math.'
+url:              http://dianacai.com
+baseurl:          /
+
+author:
+  name:           'Diana Cai'
+  url:            https://twitter.com/dicai
+
+paginate:         5
+
+# Custom vars
+#version:          2.1.0
+
+#github:
+#  repo:           https://github.com/dicai
+#
+
+pages_list:
+    #about: '/about'
+    stat-ml: '/statml'
+    compsci: '/compsci'
+    other: '/other'
+    archive: '/archive'
+    #Feed: '/atom.xml'
