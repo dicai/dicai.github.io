@@ -11,7 +11,7 @@ title:            'topics of interest'
 #title:            'Area under the Curve'
 tagline:          'Diana Cai'
 description:      'on machine learning, statistics, computer science, and math.'
-url:              http://dianacai.com
+#url:              http://dianacai.com
 baseurl:          http://dicai.github.io/
 
 author:
