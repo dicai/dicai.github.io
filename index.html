@@ -14,9 +14,9 @@
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-wide.css" />
+        <link rel="stylesheet" href="css/dcai.css" /> <!-- ? -->
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/dcai.css" />
 		</noscript>
 		<script src="js/jquery.min.js"></script>
 		<script src="js/jquery.scrolly.min.js"></script>
@@ -87,9 +87,6 @@
 								<li><a href="#about" id="about-link"
                                     class="skel-layers-ignoreHref"><span
                                 class="icon fa-paw" onclick="trackOutboundLink('#about'); return false;">About</span></a></li>
-								<!--<li><a href="#about" id="about-link"
-                                    class="skel-layers-ignoreHref"><span
-                                    class="icon fa-user">About</span></a></li>-->
 
 								<li><a href="#projects" id="projects-link"
                                     class="skel-layers-ignoreHref" onclick="trackOutboundLink('#projects'); return false;"><span
@@ -103,17 +100,11 @@
                                     class="skel-layers-ignoreHref"><span
                                 class="icon fa-volume-up" onclick="trackOutboundLink('#talks'); return false;">Talks</span></a></li>
 
-                                <!--
-								<li><a href="#classes" id="classes-link"
-                                    class="skel-layers-ignoreHref"><span
-                                class="icon fa-folder">Coursework</span></a></li>
-                                -->
-
 								<li><a href="#teaching" id="teaching-link"
                                     class="skel-layers-ignoreHref"><span
                                 class="icon fa-book">Teaching</span></a></li>
 
-								<li><a href="#" id="blog-link"
+								<li><a href="blog/" id="blog-link"
                                     class="skel-layers-ignoreHref">
                                     <span class="icon fa-keyboard-o" onclick="trackOutboundLink('/'); return false;">Blog</span>
                                 </a>
@@ -128,9 +119,6 @@
 				<div class="bottom">
 
 						<ul class="icons">
-							<!--<li><a href="www.github.com/dicai" class="icon
-                                fa-file"><span class="label">CV</span></a></li>
-                            -->
 
 							<li><a href="https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en" class="icon
                                 fa-google" onclick="trackOutboundLink('https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en'); return false;"><span class="label">Google Scholar</span></a></li>
@@ -144,9 +132,6 @@
 
 							<li><a href="https://www.twitter.com/d1ca1" class="icon fa-twitter" onclick="trackOutboundLink('https://www.twitter.com/d1ca1'); return false;"><span class="label">Twitter</span></a></li>
 
-							<!--<li><a href="#" class="icon fa-medium"><span
-                                    class="label">Medium</span></a></li>
-                            -->
 						</ul>
 
 				</div>
@@ -186,7 +171,6 @@
 							</header>
 
                             <div class="papers" align="left">
-                                <!--<div align="left" class="papers">-->
 
 <!--
                                 <h3 align="center">
@@ -229,18 +213,14 @@
                                             href="https://arxiv.org/abs/1612.05519"
                                             onclick="trackOutboundLink('https://arxiv.org/abs/1612.05519');
                                             return false;">arxiv:1612.05519.</a>
-                                    <a
-                                    href="http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html"
-                                    onclick="trackOutboundLink("http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html");
-                                    return false;">[[spotlight video]]</a>
                                     <br />
                                     Diana Cai, Trevor Campbell, Tamara
                                     Broderick.
                                     <br />
-                                        <i>
+                                        <div class="confname">
                                                 Advances in
                                             Neural Information Processing
-                                            Systems (NIPS),</i> 2016.
+                                            Systems (NIPS), 2016.</div>
                                     <br />
                                     </li>
                                     <li>
@@ -258,10 +238,10 @@
                                         <br />
                                         Diana Cai, Nate Ackerman, Cameron Freer.
                                         <br />
-                                        <i>
+                                        <div class="confname">
                                                 Electronic Journal
                                             of Statistics (EJS),
-                                            </i> 2016.
+                                            2016.</div>
                                     <br />
                                     </li>
 
@@ -383,9 +363,6 @@
                                                 "Bayesian methods for
                                                 networks"</a>:
                                             July 25-27, 2016
-                                            <!--
-                                            <a href="https://www.newton.ac.uk/seminar/20160727120012301">[[video link]]</a>
-                                            -->
                                         </li>
                                     </ol>
                                     </li>
@@ -450,107 +427,276 @@
 							<header>
 								<h2>Projects</h2>
                             <p align="left">Projects, by topic:
-                            <ol>
+                            <ol align="left">
                                 <li>
-                                <a href="#graphs" id="graphs-link">graphs and networks</a>,
+                                <a href="#bnp" class="scrolly">probabilistic modeling</a>,
+                                <li>
+                                <a href="#graphs" class="scrolly">graphs and networks</a>,
                                 </li>
                                 <li>
-                                <a href="#time"> time series modeling</a>,
-                                </li>
-                                <li>
-                                <a href="#other">other projects</a>.
+                                <a href="#other" class="scrolly">other projects</a>.
                                 </li>
                             </ol>
                              </p>
-                             <!--
-                             <p align="left" id="software">Software:
-                            <ol>
-                                <li>
-                                <a href="#pygraphon" id="pygraphon-link">pygraphon</a>
-                                </li>
-                            </ol>
-                            </p>
-                            -->
 							</header>
 
-                            <hr>
-							<h3 align="left">Research Projects</h3>
-                            <hr>
-                            <br />
 
-							<h3 align="center" id="graphs">Graphs and networks</h3>
-                            <br /><br />
+                            <hr> <br />
+							<h3 align="center" id="bnp">Probabilistic modeling and scalable inference</h3>
+                            <br />
+                            <p align="left">
+                            Probabilistic modeling is a powerful tool for
+                            understanding data in a wide-variety of
+                            applications. My research focuses on developing and
+                            analyzing the properties of flexible probabilistic models for unsupervised
+                            learning, such as clustering, feature modeling,
+                            topic modeling, and <a href="#graphs">network modeling</a>.
+
+
+                            </p>
+
 							<div class="row">
 								<div class="4u">
+                                    <br> <br>
 										<a href="#" class="image fit"><img
-                                            src="images/edge-exch-freq2.png" alt="" /></a>
+                                            src="images/paintbox.png" alt="" /></a>
 								</div>
 								<div class="8u">
+                                        <h4><b>Exchangeable trait allocations</b></h4>
+                                        <h6>(with Trevor Campbell and Tamara Broderick).</h6>
+                                        <p align="left" style="font-size:14pt">
+                                        We study exchangeable
+                                        trait allocations, a class
+                                        of combinatorial models that generalizes
+                                        partitions,
+                                        feature allocations,
+                                        and more.
+                                        In this work, we characterize the class
+                                        of exchangeable trait allocations,
+                                        which we call the trait paintbox.
+                                        We also characterize
+                                        a subclass of models particularly amenable to MCMC
+                                        and variational inference algorithms.
+                                        We show how
+                                        constrained trait allocations can be
+                                        applied to graphs as a generalization of
+                                        edge-exchangeable graphs and hypergraphs;
+                                        additional details can be found
+                                        <a href="#eegraphs">here</a>.
+                                        <br />
+                                        <i>
+                                            Submitted, 2016.
+                                        </i>
+                                        <br />
+                                        <a
+                                            href="http://arxiv.org/pdf/1609.09147.pdf"
+                                            onclick="trackOutboundLink('http://arxiv.org/pdf/1609.09147.pdf');
+                                            return false;" class="blink">pdf</a>
+                                        <a
+                                            href="http://arxiv.org/abs/1609.09147"
+                                            onclick="trackOutboundLink('http://arxiv.org/abs/1609.09147');
+                                            return false;" class="blink">arxiv</a>
+                                    <br />
+                                    </p>
+                                    <div align="left" style="padding:0px;
+                                        margin-top:-20px;
+                                        font-size:11pt;line-height:1.7;">
+                                    Preliminary version
+                                    in the
+                                     <i>NIPS 2016 Workshop on
+                                    Practical Bayesian Nonparametrics, 2016.</i>
+                                    <a
+                                        href="https://drive.google.com/file/d/0B3WHb3BabixAem1iY0tMOEFndlk/view?usp=drive_web"
+                                        >pdf</a>
+                                    </div>
+								</div>
+                            </div> <!-- end of row -->
+                            <hr> <br>
+
+                            <!-- BayesCPD -->
+							<div class="row">
+								<div class="4u">
+                                    <br> <br>
+										<a href="#" class="image fit"><img
+                                            src="images/bayescpd2.png" alt="" /></a>
+								</div>
+								<div class="8u">
+                                        <h4>
+                                        <b>Efficient variational approximations for
+                                        <br />
+                                        online Bayesian changepoint detection</b>
+                                        </h4>
+                                        (with Ryan P. Adams).
+                                        <p align="left" style="font-size:14pt">
+                                        We develop a scalable method for online
+                                        changepoint detection in
+                                        conditionally-conjugate latent variable
+                                        models, detecting  global changes in the
+                                        latent components.
+                                        We develop a scalable online variational
+                                        inference algorithm that adaptively
+                                        decreases the number of sufficient
+                                        statistics, and demonstrate inference on
+                                        mixture models and topic
+                                        modeling applications.
+                                        <br />
+                                        <a
+                                            href="https://www.github.com/dicai/bayesCPD"
+                                            target="_blank" class="blink"
+                                        onclick="trackOutboundLink('https://www.github.com/dicai/bayesCPD');
+                                        return false;">github</a>
+                                        <br />
+                                        <!--
+                                        <i style="color:black">
+                                        <a
+                                            href="http://research.microsoft.com/en-US/events/neml2014/poster-session.aspx">New
+                                            England Machine Learning Day
+                                            Workshop</a>, 2014.
+                                        </i>
+                                        <br />
+                                        <i style="color:black">
+                                        In the Women in Machine Learning Workshop,
+                                        2013.
+                                        </i>
+                                        -->
+                                        </p>
+								</div>
+                            </div> <!-- end of row -->
+                            <hr> <br>
+
+
+							<h3 align="center" id="graphs">Graphs and networks</h3>
+                            <br />
+                            <p align="left">
+                            Many modern data sources are generated by
+                            complex interactions between entities, such as online social
+                            and communication networks,
+                            biological networks including gene and protein
+                            interaction networks, and databases.
+                            My research focuses on developing nonparametric methods and theory for
+                            random graphs and relational data.
+                            </p>
+
+                            <!-- EE begin row-->
+							<div class="row">
+								<div class="4u">
+                                    <br> <br>
+										<a href="#" class="image fit"><img
+                                            src="images/sparsity2.png" alt="" /></a>
+                                            <!--src="images/edge-exch-freq2.png"
+                                                alt="" /></a>-->
+                                        <!--
+                                        <br> <br> <br> <br> <br> <br> <br>
+										<a href="#" class="image fit"><img
+                                            src="images/paintbox.png" alt="" /></a>
+                                            -->
+								</div>
+								<div class="8u" id="eegraphs">
                                         <h4><b>
-                                                Edge-exchangeable graphs,
-                                            sparsity, and power laws
+                                                Edge-exchangeable graphs:
+                                                sparsity, power laws,
+                                                <br />
+                                                paintboxes, and probability functions
                                             </b>
                                         </h4>
                                         <h6>(with Trevor Campbell and Tamara Broderick).</h6>
-                                        <p align="left" style="font-size:14pt">
-                                        <!--
-                                        We introduce a new concept of
-                                        edge-exchangeability and show how
-                                        edge-exchangeability of graphs relates
-                                        naturally to existing notions of
-                                        exchangeability from clustering (a.k.a.
-                                        partitions), feature allocations, and
-                                        combinatorial clustering.
+                                        <p align="left"
+                                        style="font-size:14pt; margin-bottom:0px">
+                                        We study edge exchangeability; here the
+                                        order of the edges does not affect the
+                                        distribution of the graph. We show that,
+                                        unlike many popular graph models that
+                                        are traditionally vertex exchangeable,
+                                        that edge exchangeability admits
+                                        sparsity and power laws. We also
+                                        characterize the class of
+                                        edge-exchangeable graphs
+                                        and a subclass that is
+                                        particular amenable to posterior
+                                        inference.
+                                        <br /><br />
+                                        <b>Edge-exchangeable graphs and sparsity.</b>
                                         <br />
-                                        -->
                                         <i>
                                                 Advances in Neural Information Processing
                                             Systems (NIPS),</i> 2016.
-                                    <br />
-                                            <a href="http://papers.nips.cc/paper/6586-edge-exchangeable-graphs-and-sparsity.pdf"
+                                        <br />
+                                            <a
+                                        href="http://papers.nips.cc/paper/6586-edge-exchangeable-graphs-and-sparsity.pdf"
+                                        class="blink"
                                         onclick="trackOutboundLink('http://papers.nips.cc/paper/6586-edge-exchangeable-graphs-and-sparsity.pdf');
-                                        return false;">[[pdf]]</a>
+                                        return false;">pdf</a>
                                         <a
                                             href="https://arxiv.org/abs/1612.05519"
+                                            class="blink"
                                             onclick="trackOutboundLink('https://arxiv.org/abs/1612.05519');
-                                            return false;">[[arXiv]]</a>
+                                            return false;">arXiv</a>
                                     <a
                                     href="http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html"
+                                    class="blink"
                                     onclick="trackOutboundLink("http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html");
-                                    return false;">[[spotlight video]]</a>
+                                    return false;">spotlight video</a>
+                                    <a href=# class="blink">poster</a>
                                     <br />
-                                    Preliminary versions appeared as:
-                                    <br />
-                                        <b>Completely random measures for modeling power laws in sparse graphs.
-                                            </b>
-                                    <i>NIPS workshop on
-                                    Networks in the Social and Information
-                                    Sciences</i>, 2015.
-<a
-    href="http://stanford.edu/~jugander/NetworksNIPS2015/papers/NIPS_Networks_2015_power_laws.pdf">[[pdf]]</a>
-                                        <br />
-                                        <b>Edge-exchangeable graphs and
-                                            sparsity.</b>
-                                    <i>NIPS workshop on
-                                    Networks in the Social and Information
-                                    Sciences</i>, 2015.
-                                <a
-    href="http://stanford.edu/~jugander/NetworksNIPS2015/papers/NIPS_Networks_2015_edge_exchangeable.pdf">[[pdf]]</a>
-										<br />
-                                        <b>Edge-exchangeable graphs,
-                                            sparsity, and power laws.</b>
-                                        <i>
-                                            NIPS Workshop on
-                                            Bayesian Nonparametrics: The Next
-                                            Generation, 2015.
-                                        </i>
+                                    </p>
+                                    <div align="left" style="padding:0px">
+                                        <ul style="list-style:disc;
+                                            font-size:11pt; margin-top:5px;
+                                            align:left;margin-left:10px;line-height:1.7;">
+                                        Preliminary versions appeared as:
+                                            <li>
+                                                <b>Completely random measures for modeling power laws in sparse graphs.</b>
+                                                <br />
+                                            <i>NIPS workshop on Networks in the Social and Information Sciences</i>, 2015.
+                                            <a
+                                                href="http://stanford.edu/~jugander/NetworksNIPS2015/papers/NIPS_Networks_2015_power_laws.pdf"
+                                                class="blink">pdf</a>
+                                            </li>
+                                            <li>
+                                            <b>Edge-exchangeable graphs and sparsity.</b>
+                                                <br />
+                                        <i>NIPS workshop on Networks in the Social and Information Sciences</i>, 2015.
                                     <a
-                                    href="https://drive.google.com/file/d/0B1-Vx4o3v8xfTW5LQTBpeTV4T00/view">[[pdf]]</a>
+                                        href="http://stanford.edu/~jugander/NetworksNIPS2015/papers/NIPS_Networks_2015_edge_exchangeable.pdf"
+                                        class="blink">pdf</a> </li>
+                                            <li> <b>Edge-exchangeable graphs, sparsity, and power laws.</b>
+                                                <br />
+                                            <i>NIPS Workshop on Bayesian Nonparametrics: The Next Generation, 2015.</i>
+                                        <a
+                                            href="https://drive.google.com/file/d/0B1-Vx4o3v8xfTW5LQTBpeTV4T00/view"
+                                            class="blink">pdf</a>
+                                        </li>
+                                        </ul>
+                                        </div>
+                                    </p>
+                                        <p align="left"
+                                        style="font-size:14pt; margin-bottom:0px">
+                                        <b>Paintboxes and probability functions for
+                                        edge-exchangeable graphs.</b>
                                         <br />
+                                        <i>
+                                            NIPS Workshop on Adaptive and
+                                            Scalable Nonparametric Methods in
+                                            Machine Learning,</i> 2016.
+                                <a
+                                    href="https://d9ae1c0a-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adaptive/17_paper.pdf"
+                                    target="_blank"
+                                    class="blink"
+                                    onclick="trackOutboundLink('https://d9ae1c0a-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adaptive/17_paper.pdf');
+                                    return false;">pdf</a>
+                                <a href="pdf/paintbox_workshop_poster.pdf" class="blink">poster</a>
+                                <a href="pdf/nips_workshop_adaptive.pdf" class="blink">slides</a>
+                                    </p>
+
                                         <br />
-                                        </p>
                                 </div>
+                            </div>
+                            <hr> <br>
+
+                            <!-- begin row -->
+							<div class="row">
 								<div class="4u">
+                                    <br> <br>
 										<a href="#" class="image fit"><img
                                             src="images/IRM_digraph.png" alt="" /></a>
 								</div>
@@ -572,44 +718,47 @@
                                         graphs.
                                         <br />
                                         <i>
-                                    <a
-                                    href="http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229"
-                                    onclick="trackOutboundLink('http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229');
-                                    return false;">
-                                                Electronic Journal
-                                            of Statistics (EJS),
-                                            </a>
-                                            2016.
+                                                Electronic Journal of Statistics (EJS),
                                             </i>
-                                        [[
+                                            2016.
+                                            <br />
+                                        <a
+                                        href="http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229"
+                                    class="blink"
+                                    onclick="trackOutboundLink('http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229');
+                                    return false;">pdf</a>
                                         <a
                                             href="http://arxiv.org/abs/1510.08440"
+                                            class="blink"
                                             onclick="trackOutboundLink('http://arxiv.org/abs/1510.08440');
                                             return false;">arXiv</a>
-                                        ]]
+                                        <a href="pdf/digraphon-poster.pdf" class="blink">poster</a>
+                                        <a href="pdf/bnp10_digraphons.pdf" class="blink">slides</a>
                                         <br />
+                                        </p>
+                                    <div align="left" style="padding:0px;
+                                        margin-top:-20px; font-size:11pt;
+                                        line-height:1.7">
+                                        Preliminary version in the
                                         <i style="color:black">
-                                            In the NIPS Workshop on
-                                            Bayesian Nonparametrics, 2015.
+                                            NIPS Workshop on Bayesian Nonparametrics, 2015.
                                         </i>
-                                        <!--
-                                        [ <a href="">PDF</a> |
-                                        <a href="">arXiv</a> |
-                                        <a href="">Github</a> ]
-                                        -->
                                         <br />
+                                        Contributed talk in the
                                         <i style="color:black">
                                         10th Conference on Bayesian Nonparametrics,
                                         2015. </i>
-                                        </p>
+                                        </div>
 								</div>
                             </div> <!-- end of row -->
+                            <hr> <br>
 
                             <!-- ISFE -->
 							<div class="row">
 								<div class="4u">
+                                    <br> <br>
 										<a href="#" class="image fit"><img
-                                            src="images/isfe.png" alt="" /></a>
+                                            src="images/astro3.png" alt="" /></a>
 								</div>
 								<div class="8u">
                                         <h4><b>Iterative step-function
@@ -617,72 +766,43 @@
                                         <h6>(with Nate Ackerman and Cameron
                                             Freer).</h6>
                                         <p align="left" style="font-size:14pt">
-                                        A method for estimating graphons
+                                        We present a method
+                                        for estimating graphons
                                         (symmetric, measurable functions from which we can sample
-                                        exchangeable graphs) by iteratively
-                                        forming step-functions obtained by grouping
-                                        vertices by edge density.
+                                        exchangeable random graphs)
+                                        by iteratively refining a partition.
+                                        Here we compute the similarity of
+                                        vertices based on their respective
+                                        neighborhoods with repsect to the
+                                        previous partition's edge densities.
+                                        A step-function estimator is then obtained by grouping
+                                        vertices by taking the average edge density
+                                        across each pair of classes in the
+                                        partition.
                                         <br />
-                                        [[ <a
+                                        <a
                                             href="http://arxiv.org/pdf/1412.2129.pdf"
-                                            onclick="trackOutboundLink('http://arxiv.org/pdf/1412.2129v2.pdf'); return false;">PDF</a> |
-                                        <a href="http://arxiv.org/abs/1412.2129" target="_blank" onclick="trackOutboundLink('http://arxiv.org/abs/1412.2129'); return false;">arXiv</a>
+                                            class="blink"
+                                            onclick="trackOutboundLink('http://arxiv.org/pdf/1412.2129v2.pdf');
+                                            return false;">pdf</a>
+                                        <a href="http://arxiv.org/abs/1412.2129"
+                                            class="blink" target="_blank" onclick="trackOutboundLink('http://arxiv.org/abs/1412.2129'); return false;">arXiv</a>
+                                        <a href="pdf/isfe2014.pdf" class="blink">poster</a>
+
                                         <!--|
                                         <a href="https://github.com/dicai/isfe">Github</a>
                                         -->
-                                        ]]
                                         <br />
-                                        <i style="color:black">
-                                        In the Women in Machine Learning Workshop,
-                                        2014. </i>
                                         </p>
 								</div>
                             </div> <!-- end of row -->
+                            <hr> <br>
 
-
+                            <!--
                             <br /><br />
 							<h3 align="center" id="time">Times series modeling</h3>
                             <br /><br />
-                            <!-- BayesCPD -->
-							<div class="row">
-								<div class="4u">
-										<a href="#" class="image fit"><img
-                                            src="images/bayescpd2.png" alt="" /></a>
-								</div>
-								<div class="8u">
-                                        <h4>
-                                        <b>Efficient Variational Approximations for
-                                        <br />
-                                        Online Bayesian Changepoint
-                                        Detection</b>
-                                        </h4>
-                                        (with Ryan P. Adams).
-                                        <p align="left" style="font-size:14pt">
-                                        We develop a scalable method for online
-                                        changepoint detection in latent variable
-                                        models using sparse variational
-                                        approximations.
-                                        <br />
-                                        [[ <a
-                                            href="https://www.github.com/dicai/bayesCPD"
-                                            target="_blank"
-                                        onclick="trackOutboundLink('https://www.github.com/dicai/bayesCPD');
-                                        return false;">Github</a> ]]
-                                        <br />
-                                        <i style="color:black">
-                                        <a
-                                            href="http://research.microsoft.com/en-US/events/neml2014/poster-session.aspx">New
-                                            England Machine Learning Day
-                                            Workshop</a>, 2014.
-                                        </i>
-                                        <br />
-                                        <i style="color:black">
-                                        In the Women in Machine Learning Workshop,
-                                        2013.
-                                        </i>
-                                        </p>
-								</div>
-                            </div> <!-- end of row -->
+                            -->
 
                             <br /><br />
 							<h3 align="center" id="other">Other projects</h3>
@@ -704,11 +824,14 @@
                                         We analyzed online recipes using computational
                                         methods and exploratory visualizations.
                                         <br />
-                                        The Boston Globe, Dec 2011.
+                                        "A food pyramid made of cookies."
+                                        <i>The Boston Globe</i>, Dec 2011.
                                         <a href="http://www.bostonglobe.com/ideas/2011/12/11/food-pyramid-made-cookies/Ev66x0eHjUIcBSEAl1EIYI/story.html"
+                                           class="blink"
                                                 target="_blank" onclick="trackOutboundLink('http://www.bostonglobe.com/ideas/2011/12/11/food-pyramid-made-cookies/Ev66x0eHjUIcBSEAl1EIYI/story.html'); return false;">
-                                            [[link]]
+                                            link
                                         </a>
+                                        <!--
                                         <br />
                                         Bakery Mapping Visualization: <a
                                             href="http://www.cache.boston.com/ideas/graphics/buildatetrahedron.pdf"
@@ -717,6 +840,7 @@
                                             href="http://www.eecs.harvard.edu/~dcai/ratio.pdf"
                                              target="_blank" onclick="trackOutboundLink('http://www.eecs.harvard.edu/~dcai/ratio.pdf'); return false;">
                                             [[pdf]]</a>
+                                        -->
                                         <br />
                                         (with Elaine Angelino and Michael Brenner)
                                         <br />
@@ -765,7 +889,7 @@
 
                             <div align="left">
                             <h3>
-                                Preprints
+                                Preprints and working papers
                             </h3>
                             <ol style="list-style-type:decimal; color:black">
                                 <li>
@@ -795,7 +919,7 @@
 
 
                             <h3>
-                                Journal and Conference Papers
+                                Journal and conference papers
                             </h3>
                             <ol style="list-style-type:decimal; color:black">
 
@@ -819,23 +943,6 @@
                                             Neural Information Processing
                                             Systems (NIPS),</i> 2016.
                                     <br />
-                                    <!--
-                                    Preliminary versions in
-                                    <i>NIPS workshop on
-                                    Networks in the Social and Information
-                                    Sciences</i>, 2015.
-<a
-    href="http://stanford.edu/~jugander/NetworksNIPS2015/papers/NIPS_Networks_2015_power_laws.pdf">[[pdf]]</a>
-<br />
-                                    <i>NIPS Workshop
-                                    on Bayesian Nonparametrics: The Next
-                                    Generation</i>, 2015.
-                                    <a
-                                    href="https://drive.google.com/file/d/0B1-Vx4o3v8xfTW5LQTBpeTV4T00/view">[[pdf]]</a>
-                                    <br />
-                                    <i style="color:maroon">ISBA@NIPS Special Travel Award for
-                                Contributed Paper, 2015.</i>
-                                    -->
                                     </li>
                                     <li>
                                     <b>
@@ -880,7 +987,7 @@
                             </ol>
 
                             <h3>
-                                Workshop Papers
+                                Workshop papers
                             </h3>
 
                             <ol style="list-style-type:decimal; color:black">
@@ -983,45 +1090,7 @@
                                     return false;">arxiv:1603.06898</a>
                                 [math.ST, stat.ME, stat.ML].
                                 </li>
-                                <!--
-                                <li>
-                                T. Broderick, <b>D. Cai</b>.
-                                Edge-exchangeable graphs and sparsity.
-                                </li>
-                                -->
                             </ol>
-
-                            <!--
-                            <h3>
-                            Notes, Tutorials, and Tech Reports
-                            </h3>
-                            <ol style="list-style-type:decimal; color:black">
-                            <li>
-                            <b>[D. Cai</b>, T. Feng]<sup>*</sup>.
-                            Inferring graph structure in social networks.
-                                <i>Harvard University Technical Report,</i> 2012.
-                                <a href="http://www.eecs.harvard.edu/~dcai/papers/cs222.pdf" target="_blank" onclick="trackOutboundLink('http://eecs.harvard.edu/~dcai/papers/cs222.pdf'); return false;">[pdf]</a>
-                            </li>
-                            -->
-                            <!--
-                            <li>
-                                <b>D. Cai</b>.
-                                Introduction to data compression, 2011.
-                                <a href=coding.pdf>[[pdf]]</a>
-                            </li>
-                            -->
-                            <!--
-                            <li>
-                            <b>[D. Cai</b>, L. Mcginnis, Y.J. Gwon]<sup>*</sup>.
-                                Storing, querying, and compressing workflow
-                                provenance.
-                                <i>Harvard University Technical Report,</i> 2010.
-                                <a href="http://www.eecs.harvard.edu/~dcai/papers/cs265.pdf" target="_blank" onclick="trackOutboundLink('http://eecs.harvard.edu/~dcai/papers/cs265.pdf'); return false;">[pdf]</a>
-                            </li>
-                            </ol>
-
-                            -->
-
 
                             <h3>
                             Theses
@@ -1033,8 +1102,7 @@
                             <br />
                             Advisor: Ryan P. Adams
                             <br />
-                            Senior Thesis,<i> Harvard University,
-                                2014.</i>
+                            Senior Thesis,<i> Harvard University, 2014</i>, 2014,
                             </li>
                             </ol>
 
@@ -1048,6 +1116,23 @@
 
                             <div align="left">
                                 <ol style="list-style-type:decimal; color:black">
+                                        <li>
+                                        Edge-exchangeable graphs, sparsity, and
+                                        power laws.
+                                        <br />
+                                        <b>Contributed talk</b> in the
+                                        11th Conference on Bayesian
+                                        Nonparametrics,
+                                            June 2017.
+                                        </li>
+                                        <li>
+                                        Edge-exchangeable graphs, sparsity, and
+                                        power laws.
+                                        <br />
+                                        <b>Contributed talk</b> in the
+                                        Conference on Network Science (Netsci),
+                                            June 2017.
+                                        </li>
                                         <li>
                                             Paintboxes and probability functions
                                             for edge-exchangeable graphs.
@@ -1098,15 +1183,6 @@
                                         June 2015.
                                         <a href="https://www.dropbox.com/s/m7c3zisic91gvam/talk_BNP10_dcai.pdf?dl=0" target="_blank" onclick="trackOutboundLink('https://www.dropbox.com/s/m7c3zisic91gvam/talk_BNP10_dcai.pdf?dl=0'); return false;">[pdf]</a>
                                     </li>
-                                    <!--
-                                    <li>
-                                        Scalable Methods for Bayesian Online
-                                        Changepoint Detection.
-                                        <br />
-                                        Senior Thesis presentation.
-                                        <i> Harvard University, Apr 2014.</i>
-                                    </li>
-                                    -->
                                     <li>
                                         Efficient online variational changepoint
                                         detection.
