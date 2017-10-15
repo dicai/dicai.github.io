@@ -9,6 +9,13 @@
     font-style: italic;
     margin-bottom: -35px;
 }
+
+.news ul
+{
+    list-style: decimal;
+    padding-left: 1em;
+}
+
 .papers ul
 {
     list-style: disc;
@@ -18,7 +25,7 @@
 .papers ol
 {
     list-style: decimal;
-    padding-left: 1.25em;
+    padding-left: 1em;
 }
 
 .papers li
