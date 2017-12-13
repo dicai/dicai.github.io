@@ -6,11 +6,11 @@
 -->
 <html>
 	<head>
-		<title>Diana Cai</title>
+		<title>Diana R. Cai</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="diana cai" />
 		<meta name="keywords" content="diana cai, harvard, statistics, computer
-        science, princeton, uchicago, machine learning, bayesian, nonparametric" />
+        science, uchicago, machine learning" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/style-wide.css" />
@@ -87,7 +87,7 @@
 
 								<li><a href="#about" id="about-link"
                                     class="skel-layers-ignoreHref"><span
-                                class="icon fa-paw" onclick="trackOutboundLink('#about'); return false;">About</span></a></li>
+                                class="icon fa-user" onclick="trackOutboundLink('#about'); return false;">About</span></a></li>
 
 								<li><a href="#projects" id="projects-link"
                                     class="skel-layers-ignoreHref" onclick="trackOutboundLink('#projects'); return false;"><span
@@ -105,10 +105,9 @@
                                     class="skel-layers-ignoreHref"><span
                                 class="icon fa-book">Teaching</span></a></li>
 
-								<li><a href="blog/" id="blog-link"
-                                    class="skel-layers-ignoreHref"><span
-                                        class="icon fa-keyboard-o"
-                                        onclick="trackOutboundLink('blog/'); return false;">Blog</span>
+								<li><a href="/blog/" id="blog-link"
+                                    class="skel-layers-ignoreHref">
+                                    <span class="icon fa-keyboard-o" onclick="trackOutboundLink('/blog/'); return false;">Blog</span>
                                 </a>
                                 </li>
 
@@ -122,16 +121,17 @@
 
 						<ul class="icons">
 
-							<li><a href="https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en"
+							<li><a
+                                    href="https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en"
                                     class="ai ai-google-scholar" onclick="trackOutboundLink('https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en'); return false;"></a></li>
-
+                                    <!--class="icon fa-google"
+                                        onclick="trackOutboundLink('https://scholar.google.com/citations?user=WrLjBYgAAAAJ&hl=en'); return false;"><span class="label">Google Scholar</span></a></li>-->
 
 							<li><a href="http://www.github.com/dicai" class="icon fa-github" onclick="trackOutboundLink('http://www.github.com/dicai'); return false;"><span class="label">Github</span></a></li>
 
 							<li><a href="https://www.linkedin.com/in/dianacai"
                                 class="icon fa-linkedin" onclick="trackOutboundLink('http://www.linkedin.com/in/dianacai'); return false;"><span
                             class="label">LinkedIn</span></a></li>
-
 
 							<li><a href="https://www.twitter.com/d1ca1" class="icon fa-twitter" onclick="trackOutboundLink('https://www.twitter.com/d1ca1'); return false;"><span class="label">Twitter</span></a></li>
 
@@ -161,15 +161,15 @@
                                 Princeton University
                                 <br />
                                 <i>Email: dcai-at-cs-dot-princeton-edu</i> <br />
-                                <!--<a href="">Short CV</a>-->
                                 </h5>
 
                                 <p align="left" style="color:black;
                                 font-size:16pt">
                                 <b>Research interests</b>:
-                                I am broadly interested in statistical modeling, theory,
-                                and applications, with an emphasis on scalable,
-                                nonparametric learning.
+                                I am broadly interested in
+                                probabilistic modeling, and in particular,
+                                theory and methods for
+                                robust, scalable, and nonparametric Bayesian modeling.
                                 </p>
 							</header>
 
@@ -274,7 +274,7 @@
                                 </div>
                                 -->
                         </div>
-                            <a href="#papers" class="button scrolly">View all papers</a>
+                            <a href="#papers" class="button">View all papers</a>
 
 
 							<footer>
@@ -297,15 +297,16 @@
 
 							<p align="left">
                             I am a graduate student at Princeton University
-                            studying machine learning and Bayesian statistics.
+                            in computer science, working on problems in
+                            Bayesian statistics and machine learning.
+                            I am advised by Ryan P. Adams and Barbara Engelhardt, and
+                            I also work closely with Tamara Broderick at MIT.
+
                             Previously, I received an
                             M.S. in statistics at the
                             University of Chicago, and an
                             A.B. in computer science and statistics
-                            from Harvard University, where I was a member of the
-                            <a href="http://hips.seas.harvard.edu" onclick="trackOutboundLink('http://hips.seas.harvard.edu'); return false;">
-                            Harvard Intelligent Probabilistic Systems (HIPS)
-                            Group</a>.
+                            from Harvard University.
                             I was an organizer for the
                             <a href="http://wimlworkshop.org/2016/">2016 Women in Machine
                             Learning Workshop</a> in Barcelona, Spain.
@@ -315,11 +316,18 @@
                             <br />
                             <br />
 
-                            <h2>Past travel & updates</h2>
+                            <h2>Travel & updates</h2>
                             <div class="news" align="left">
+                            <!--<div class="news" align="left">-->
 							<p align="left">
                                 <ul style="list-style-type:disc;
                                     color:black; font-size:14pt">
+                                    <li>
+                                        I will be attending NIPS 2017 in Long Beach, CA and will be
+                                        presenting work at the <a
+                                            href="http://www.wimlworkshop.org/2017/">Women in Machine Learning workshop</a> (WiML 2017) and the
+                                        <a href="http://www.approximateinference.org">Advances in Approximate Bayesian Inference workshop</a> (AABI 2017).
+                                    </li>
                                     <li>
                                         I will be speaking at the
                                         <a href="http://netsci2017.net/">International Conference on
@@ -366,6 +374,9 @@
                                                 "Bayesian methods for
                                                 networks"</a>:
                                             July 25-27, 2016
+                                            <!--
+                                            <a href="https://www.newton.ac.uk/seminar/20160727120012301">[[video link]]</a>
+                                            -->
                                         </li>
                                     </ol>
                                     </li>
@@ -430,12 +441,17 @@
 							<header>
 								<h2>Projects</h2>
                             <p align="left">Projects, by topic:
-                            <ol align="left">
+                            <ol align="left" class="papers">
                                 <li>
                                 <a href="#bnp" class="scrolly">probabilistic modeling</a>,
                                 <li>
                                 <a href="#graphs" class="scrolly">graphs and networks</a>,
                                 </li>
+                                <!--
+                                <li>
+                                <a href="#bio" class="scrolly"></a>.
+                                </li>
+                                -->
                                 <li>
                                 <a href="#other" class="scrolly">other projects</a>.
                                 </li>
@@ -444,6 +460,7 @@
 							</header>
 
 
+                            <!-- PROB MODELING SECTION -->
                             <hr> <br />
 							<h3 align="center" id="bnp">Probabilistic modeling and scalable inference</h3>
                             <br />
@@ -454,9 +471,56 @@
                             analyzing the properties of flexible probabilistic models for unsupervised
                             learning, such as clustering, feature modeling,
                             topic modeling, and <a href="#graphs">network modeling</a>.
-
-
                             </p>
+
+
+							<div class="row">
+								<div class="4u">
+                                    <br> <br>
+                                    <br />
+										<a href="#" class="image fit"><img
+                                            src="images/finmix.png" alt="" /></a>
+								</div>
+								<div class="8u">
+                                        <h4><b>Finite mixture models are
+                                                typically inconsistent <br />
+                                                for the number of components</b></h4>
+                                        <h6>(with Trevor Campbell and Tamara Broderick).</h6>
+                                        <p align="left" style="font-size:14pt">
+                                        A generative model is a
+                                        vast simplification of the
+                                        complex real-world phenomena
+                                        that govern any observed data set,
+                                        and for any model of a real-world data set,
+                                        model misspecification is necessary for
+                                        tractable data analysis.
+                                        But model misspecification can also lead to
+                                        fundamentally inaccurate,
+                                        misleading, or uninterpretable inferences.
+                                        We study finite mixture models with a
+                                        prior on the number of components under
+                                        misspecification of the mixture family,
+                                        focusing on the (in)consistency
+                                        and finite-sample
+                                        properties of the posterior on the
+                                        number of components, and we discuss the
+                                        implications of misspecification for
+                                        cluster analysis.
+                                    </p>
+                                    <div align="left" style="padding:0px;
+                                        margin-top:-20px;
+                                        font-size:11pt;line-height:1.7;">
+                                        Extended abstract
+                                    in the
+                                     <i>NIPS Workshop on
+                                    Advances in Approximate Bayesian Inference, 2017.</i>
+                                    <a
+                                        href="http://approximateinference.org/2017/accepted/CaiEtAl2017.pdf"
+                                        >pdf</a>
+                                    </div>
+								</div>
+                            </div> <!-- end of row -->
+                            <hr> <br>
 
 							<div class="row">
 								<div class="4u">
@@ -549,25 +613,13 @@
                                         onclick="trackOutboundLink('https://www.github.com/dicai/bayesCPD');
                                         return false;">github</a>
                                         <br />
-                                        <!--
-                                        <i style="color:black">
-                                        <a
-                                            href="http://research.microsoft.com/en-US/events/neml2014/poster-session.aspx">New
-                                            England Machine Learning Day
-                                            Workshop</a>, 2014.
-                                        </i>
-                                        <br />
-                                        <i style="color:black">
-                                        In the Women in Machine Learning Workshop,
-                                        2013.
-                                        </i>
-                                        -->
                                         </p>
 								</div>
                             </div> <!-- end of row -->
                             <hr> <br>
 
 
+                            <!-- GRAPHS SECTION -->
 							<h3 align="center" id="graphs">Graphs and networks</h3>
                             <br />
                             <p align="left">
@@ -577,8 +629,9 @@
                             biological networks including gene and protein
                             interaction networks, and databases.
                             My research focuses on developing nonparametric methods and theory for
-                            random graphs and relational data.
+                            exchangeable random graphs and relational data.
                             </p>
+
 
                             <!-- EE begin row-->
 							<div class="row">
@@ -620,7 +673,7 @@
                                         <br /><br />
                                         <b>Edge-exchangeable graphs and sparsity.</b>
                                         <br />
-                                        <i>
+                                        <i class="confname">
                                                 Advances in Neural Information Processing
                                             Systems (NIPS),</i> 2016.
                                         <br />
@@ -639,7 +692,11 @@
                                     class="blink"
                                     onclick="trackOutboundLink("http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html");
                                     return false;">spotlight video</a>
-                                    <a href="pdf/edge_exch_main.pdf" class="blink">poster</a>
+                                    <a
+                                    href="pdf/edge_exch_main.pdf"
+                                    class="blink"
+                                    onclick="trackOutboundLink('http://www.dianacai.com/pdf/edge_exch_main.pdf');
+                                    return false;">poster</a>
                                     <br />
                                     </p>
                                     <div align="left" style="padding:0px">
@@ -677,18 +734,19 @@
                                         <b>Paintboxes and probability functions for
                                         edge-exchangeable graphs.</b>
                                         <br />
-                                        <i>
+                                        <i class="confname">
                                             NIPS Workshop on Adaptive and
                                             Scalable Nonparametric Methods in
                                             Machine Learning,</i> 2016.
                                 <a
                                     href="https://d9ae1c0a-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adaptive/17_paper.pdf"
-                                    target="_blank"
-                                    class="blink"
+                                    target="_blank" class="blink"
                                     onclick="trackOutboundLink('https://d9ae1c0a-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adaptive/17_paper.pdf');
                                     return false;">pdf</a>
+                                <a href="pdf/nips_workshop_adaptive.pdf"
+                                    class="blink" onclick="trackOutboundLink('http://www.dianacai.com/pdf/nips_workshop_adaptive.pdf');
+                                    return false;";>slides</a>
                                 <a href="pdf/paintbox_workshop_poster.pdf" class="blink">poster</a>
-                                <a href="pdf/nips_workshop_adaptive.pdf" class="blink">slides</a>
                                     </p>
 
                                         <br />
@@ -720,7 +778,7 @@
                                         model for exchangeable directed random
                                         graphs.
                                         <br />
-                                        <i>
+                                        <i class="confname">
                                                 Electronic Journal of Statistics (EJS),
                                             </i>
                                             2016.
@@ -735,8 +793,8 @@
                                             class="blink"
                                             onclick="trackOutboundLink('http://arxiv.org/abs/1510.08440');
                                             return false;">arXiv</a>
-                                        <a href="pdf/digraphon-poster.pdf" class="blink">poster</a>
                                         <a href="pdf/bnp10_digraphons.pdf" class="blink">slides</a>
+                                        <a href="pdf/digraphon-poster.pdf" class="blink">poster</a>
                                         <br />
                                         </p>
                                     <div align="left" style="padding:0px;
@@ -791,7 +849,6 @@
                                         <a href="http://arxiv.org/abs/1412.2129"
                                             class="blink" target="_blank" onclick="trackOutboundLink('http://arxiv.org/abs/1412.2129'); return false;">arXiv</a>
                                         <a href="pdf/isfe2014.pdf" class="blink">poster</a>
-
                                         <!--|
                                         <a href="https://github.com/dicai/isfe">Github</a>
                                         -->
@@ -801,12 +858,9 @@
                             </div> <!-- end of row -->
                             <hr> <br>
 
-                            <!--
-                            <br /><br />
-							<h3 align="center" id="time">Times series modeling</h3>
-                            <br /><br />
-                            -->
 
+
+                            <!-- OTHER SECTION -->
                             <br /><br />
 							<h3 align="center" id="other">Other projects</h3>
                             <br /><br />
@@ -894,7 +948,21 @@
                             <h3>
                                 Preprints and working papers
                             </h3>
+                            <div class="papers">
                             <ol style="list-style-type:decimal; color:black">
+                                <!--
+                                   <li>
+                                   <b>
+                                       <a
+                                           href=http://approximateinference.org/2017/accepted/CaiEtAl2017.pdf>
+                                           Finite mixture models are typically
+                                           inconsistent for the number of components.
+                                       </a>
+                                   </b>
+                                   <br />
+                                   Diana Cai, Trevor Campbell, Tamara Broderick.
+                                   </li>
+                                   -->
                                 <li>
                                 <b>
                                     Exchangeable trait allocations.
@@ -941,7 +1009,7 @@
                                     Diana Cai, Trevor Campbell, Tamara
                                     Broderick.
                                     <br />
-                                        <i>
+                                        <i class="confname">
                                                 Advances in
                                             Neural Information Processing
                                             Systems (NIPS),</i> 2016.
@@ -962,29 +1030,9 @@
                                         <br />
                                         Diana Cai, Nate Ackerman, Cameron Freer.
                                         <br />
-                                        <i>
+                                        <i class="confname">
                                                 Electronic Journal of Statistics (EJS),
                                             </i> 2016.
-                                    <!--
-                                    <br />
-                                        In the <i>10th Conference on Bayesian
-                                            Nonparametrics</i>, 2015
-                                        <a href="https://www.dropbox.com/s/m7c3zisic91gvam/talk_BNP10_dcai.pdf?dl=0">[[slides]]</a>
-                                        .
-                                        -->
-                                        <!--
-                                    <br />
-                                    Preliminary version in
-                                        <i>NIPS Workshop
-                                    on Bayesian Nonparametrics: The Next
-                                    Generation</i>, 2015.
-                                    <br />
-                                    <i style="color:maroon">ISBA@NIPS Special Travel Award for
-                                Contributed Paper, 2015.
-                                <br />
-                                ISBA Junior Researcher Travel
-                                Award, 2015.</i>
-                                -->
                                     </li>
 
                             </ol>
@@ -996,13 +1044,31 @@
                             <ol style="list-style-type:decimal; color:black">
                             <li>
                                 <b>
+                                    Finite mixture models are typically
+                                    inconsistent for the number of components.
+                                </b>
+                                <br />
+                                Diana Cai, Trevor Campbell, Tamara Broderick.
+                                <br />
+                                <i class="confname">NIPS Workshop
+                                    on Advances in Approximate Bayesian
+                                    Inference,
+                                </i> 2017.
+                                <a
+                                    href="http://approximateinference.org/2017/accepted/CaiEtAl2017.pdf"
+                                    target="_blank"
+                                    onclick="trackOutboundLink('http://approximateinference.org/2017/accepted/CaiEtAl2017.pdf');
+                                    return false;">[[pdf]]</a>
+                            </li>
+                            <li>
+                                <b>
                                     Paintboxes and probability functions for
                                     edge-exchangeable graphs.
                                 </b>
                                 <br />
                                 Diana Cai, Trevor Campbell, Tamara Broderick.
                                 <br />
-                                <i>NIPS Workshop
+                                <i class="confname">NIPS Workshop
                                 on Adaptive and Scalable Nonparametric Methods
                                 in Machine Learning,
                                 </i> 2016.
@@ -1020,7 +1086,7 @@
                                 <br />
                                 Trevor Campbell, Diana Cai, Tamara Broderick.
                                 <br />
-                                <i>NIPS Workshop
+                                <i class="confname">NIPS Workshop
                                 on Practical Bayesian Nonparametrics,
                                 </i> 2016.
                                 <a
@@ -1037,7 +1103,7 @@
                                 <br />
                                 Diana Cai, Nate Ackerman, Cameron Freer.
                                 <br />
-                                <i>NIPS Workshop
+                                <i class="confname">NIPS Workshop
                                 on Bayesian Nonparametrics: The Next
                                 Generation</i>, 2015.
                             <a
@@ -1052,7 +1118,7 @@
                                 <br />
                                 Diana Cai, Tamara Broderick.
                                 <br />
-                                <i>NIPS workshop on
+                                <i class="confname">NIPS workshop on
                                 Networks in the Social and Information
                                 Sciences</i>, 2015.
                             <a
@@ -1073,7 +1139,7 @@
                                 <br />
                                 Tamara Broderick, Diana Cai.
                                 <br />
-                                <i>NIPS Workshop
+                                <i class="confname">NIPS Workshop
                                 on Bayesian Nonparametrics: The Next
                                 Generation</i>
                                 <a
@@ -1082,7 +1148,15 @@
                                     <i style="color:maroon">ISBA@NIPS Special Travel Award for
                                 Contributed Paper, 2015.</i>
                                     <br/>
-                            <i>NIPS workshop on
+                                </li>
+                                <li>
+                                <b>
+                                Edge-exchangeable graphs and sparsity.
+                                </b>
+                                <br />
+                                Tamara Broderick, Diana Cai.
+                                <br />
+                            <i class="confname">NIPS workshop on
                                 Networks in the Social and Information
                                 Sciences</i>, 2015.
                             <a
@@ -1095,19 +1169,28 @@
                                 </li>
                             </ol>
 
+
                             <h3>
                             Theses
                             </h3>
                             <ol style="list-style-type:decimal; color:black">
+                            <li>
+                                <b>Nonparametric hypergraph edge partitioning</b>
+                            <br />
+                            Advisor: John D. Lafferty
+                            <br />
+                            Masters Thesis,<i> University of Chicago</i>, 2017.
+                            </li>
                             <li>
                                 <b>Scalable methods for Bayesian online
                         changepoint detection.</b>
                             <br />
                             Advisor: Ryan P. Adams
                             <br />
-                            Senior Thesis,<i> Harvard University</i>, 2014.
+                            Senior Thesis,<i> Harvard University,</i> 2014.
                             </li>
                             </ol>
+                            </div> <!-- end class=papers -->
 
                             </div>
 
@@ -1117,7 +1200,7 @@
                             Selected Talks
                             </h2>
 
-                            <div align="left">
+                            <div align="left" class="papers">
                                 <ol style="list-style-type:decimal; color:black">
                                         <li>
                                         Edge-exchangeable graphs, sparsity, and
