@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on </title>
+    <link>https://dicai.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exchangeable trait allocations</title>
+      <link>https://dicai.github.io/publication/journal-article/2018-traitexch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2018-traitexch/</guid>
+      <description>Preliminary version in the NIPS 2016 Workshop on Practical Bayesian Nonparametrics, 2016. PDF</description>
+    </item>
+    
+    <item>
+      <title>Priors on exchangeable directed graphs</title>
+      <link>https://dicai.github.io/publication/journal-article/2016-digraphons/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2016-digraphons/</guid>
+      <description>Preliminary version in the NIPS Workshop on Bayesian Nonparametrics, 2015.</description>
+    </item>
+    
+  </channel>
+</rss>

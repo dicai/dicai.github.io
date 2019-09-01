@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on </title>
+    <link>https://dicai.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
+      <link>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edge-exchangeable graphs and sparsity</title>
+      <link>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</guid>
+      <description>Preliminary versions appeared as:   Completely random measures for modeling power laws in sparse graphs. NIPS workshop on Networks in the Social and Information Sciences, 2015.   Edge-exchangeable graphs and sparsity. NIPS workshop on Networks in the Social and Information Sciences, 2015.   Edge-exchangeable graphs, sparsity, and power laws. NIPS Workshop on Bayesian Nonparametrics: The Next Generation, 2015.</description>
+    </item>
+    
+  </channel>
+</rss>

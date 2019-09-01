@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>4 on </title>
+    <link>https://dicai.github.io/publication_types/4/</link>
+    <description>Recent content in 4 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <link>https://dicai.github.io/publication/conference-paper/2017-finmix/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2017-finmix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paintboxes and probability functions for edge-exchangeable graphs</title>
+      <link>https://dicai.github.io/publication/conference-paper/2016-paintbox/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2016-paintbox/</guid>
+      <description>This article focuses on the graph paintbox. A full journal article on a more general structure, trait allocations, is available online: Trevor Campbell, Diana Cai, Tamara Broderick. Exchangeable trait allocations. Electronic Journal of Statistics, 2018.</description>
+    </item>
+    
+    <item>
+      <title>Completely random measures for modeling power laws in graphs</title>
+      <link>https://dicai.github.io/publication/conference-paper/2015-powerlaws/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2015-powerlaws/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edge-exchangeable graphs and sparsity</title>
+      <link>https://dicai.github.io/publication/conference-paper/2015-edgeexch-networks/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2015-edgeexch-networks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Edge-exchangeable graphs, sparsity, and power laws</title>
+      <link>https://dicai.github.io/publication/conference-paper/2015-edgeexch-bnp/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2015-edgeexch-bnp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

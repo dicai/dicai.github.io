@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>probmodeling on </title>
+    <link>https://dicai.github.io/tags/probmodeling/</link>
+    <description>Recent content in probmodeling on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/tags/probmodeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <link>https://dicai.github.io/publication/conference-paper/2019-finmix/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2019-finmix/</guid>
+      <description>Preliminary version in NeurIPS Workshop on Advances in Approximate Bayesian Inference (AABI).</description>
+    </item>
+    
+    <item>
+      <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
+      <link>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
