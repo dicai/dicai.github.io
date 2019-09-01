@@ -6,7 +6,7 @@
     <description>Recent content in Authors on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,28 +14,10 @@
     <item>
       <title></title>
       <link>https://dicai.github.io/authors/admin/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/admin/</guid>
       <description>I am a PhD student at Princeton University in computer science, working on problems in Bayesian statistics and machine learning. I am particularly interested in developing robust and scalable methods for probabilistic modeling and inference. At Princeton, I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group. Currently, I serve on the Women in Machine Learning Board of Directors.</description>
-    </item>
-    
-    <item>
-      <title>Tamara Broderick</title>
-      <link>https://dicai.github.io/authors/tamara-broderick/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/authors/tamara-broderick/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Trevor Campbell</title>
-      <link>https://dicai.github.io/authors/trevor-campbell/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/authors/trevor-campbell/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -53,6 +35,24 @@
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/ryan-p.-adams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tamara Broderick</title>
+      <link>https://dicai.github.io/authors/tamara-broderick/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/tamara-broderick/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trevor Campbell</title>
+      <link>https://dicai.github.io/authors/trevor-campbell/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/trevor-campbell/</guid>
       <description></description>
     </item>
     

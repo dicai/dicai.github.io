@@ -6,19 +6,10 @@
     <description>Recent content in Publications on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Finite mixture models are typically inconsistent for the number of components</title>
-      <link>https://dicai.github.io/publication/conference-paper/2019-finmix/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/publication/conference-paper/2019-finmix/</guid>
-      <description>Preliminary version in NeurIPS Workshop on Advances in Approximate Bayesian Inference (AABI).</description>
-    </item>
     
     <item>
       <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
@@ -102,11 +93,11 @@
     </item>
     
     <item>
-      <title>Priors on exchangeable directed graphs</title>
-      <link>https://dicai.github.io/publication/preprint/2014-isfe/</link>
+      <title>An iterative step-function estimator for graphons</title>
+      <link>https://dicai.github.io/publication/conference-paper/2014-isfe/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/publication/preprint/2014-isfe/</guid>
+      <guid>https://dicai.github.io/publication/conference-paper/2014-isfe/</guid>
       <description></description>
     </item>
     
