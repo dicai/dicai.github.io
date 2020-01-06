@@ -20,14 +20,14 @@
   
   
 
-  <meta name="author" content="Diana R. Cai">
+  <meta name="author" content="Diana Cai">
 
   
   
   
     
   
-  <meta name="description" content="Scientists and engineers are often interested in learning the number of subpopulations (or clusters) present in a data set. It is common to use a Dirichlet process mixture model (DPMM) for this purpose. But Miller and Harrison (2013) warn that the DPMM posterior is severely inconsistent for the number of clusters when the data are truly generated from a finite mixture; that is, the posterior probability of the true number of clusters goes to zero in the limit of infinite data. A potential alternative is to use a finite mixture model (FMM) with a prior on the number of clusters. Past work has shown the resulting posterior in this case is consistent. But these results crucially depend on the assumption that the cluster likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2018) suggests that the posterior on the number of clusters is sensitive to the likelihood choice. In this paper, we prove that under even the slightest model misspecification, the FMM posterior on the number of components is also severely inconsistent. We support our theory with empirical results on simulated and real data sets.">
+  <meta name="description" content="">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2019-finmix/">
@@ -97,6 +97,20 @@
 
   
   
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-41764983-2', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
   
 
   
@@ -119,22 +133,22 @@
   <meta property="twitter:site" content="@dianarycai">
   <meta property="twitter:creator" content="@dianarycai">
   
-  <meta property="og:site_name" content="">
+  <meta property="og:site_name" content="Diana R. Cai">
   <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2019-finmix/">
-  <meta property="og:title" content="Finite mixture models are typically inconsistent for the number of components | ">
-  <meta property="og:description" content="Scientists and engineers are often interested in learning the number of subpopulations (or clusters) present in a data set. It is common to use a Dirichlet process mixture model (DPMM) for this purpose. But Miller and Harrison (2013) warn that the DPMM posterior is severely inconsistent for the number of clusters when the data are truly generated from a finite mixture; that is, the posterior probability of the true number of clusters goes to zero in the limit of infinite data. A potential alternative is to use a finite mixture model (FMM) with a prior on the number of clusters. Past work has shown the resulting posterior in this case is consistent. But these results crucially depend on the assumption that the cluster likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2018) suggests that the posterior on the number of clusters is sensitive to the likelihood choice. In this paper, we prove that under even the slightest model misspecification, the FMM posterior on the number of components is also severely inconsistent. We support our theory with empirical results on simulated and real data sets."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:title" content="Finite mixture models are typically inconsistent for the number of components | Diana R. Cai">
+  <meta property="og:description" content=""><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2019-05-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2019-12-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2019-05-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2019-12-01T00:00:00&#43;00:00">
   
 
   
 
-  <title>Finite mixture models are typically inconsistent for the number of components | </title>
+  
+
+  <title>Finite mixture models are typically inconsistent for the number of components | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -175,7 +189,7 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"></a>
+      <a class="navbar-brand" href="/">Diana R. Cai</a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -343,8 +357,8 @@
 
 
 
-<meta content="2019-05-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2019-05-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2019-12-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2019-12-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -357,7 +371,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Diana R. Cai</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/trevor-campbell/">Trevor Campbell</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tamara-broderick/">Tamara Broderick</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Diana Cai</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/trevor-campbell/">Trevor Campbell</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tamara-broderick/">Tamara Broderick</a></span>
 
   </div>
   
@@ -369,7 +383,7 @@
     
       
     
-    <time>May 2019</time>
+    <time>December 2019</time>
   </span>
   
 
@@ -462,7 +476,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/www.example.com/asdf.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://drive.google.com/file/d/1MKgwA6fFKd2lfKPUaoVXeYtJBjwdP6nv/view" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -485,22 +499,6 @@
 
 
 
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://example.org" target="_blank" rel="noopener">
-    
-    arXiv
-  </a>
-
 
 </div>
 
@@ -512,9 +510,6 @@
 
   <div class="article-container">
 
-    
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Scientists and engineers are often interested in learning the number of subpopulations (or clusters) present in a data set. It is common to use a Dirichlet process mixture model (DPMM) for this purpose. But Miller and Harrison (2013) warn that the DPMM posterior is severely inconsistent for the number of clusters when the data are truly generated from a finite mixture; that is, the posterior probability of the true number of clusters goes to zero in the limit of infinite data. A potential alternative is to use a finite mixture model (FMM) with a prior on the number of clusters. Past work has shown the resulting posterior in this case is consistent. But these results crucially depend on the assumption that the cluster likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2018) suggests that the posterior on the number of clusters is sensitive to the likelihood choice. In this paper, we prove that under even the slightest model misspecification, the FMM posterior on the number of components is also severely inconsistent. We support our theory with empirical results on simulated and real data sets.</p>
     
 
     
@@ -528,8 +523,8 @@
 
             
             
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#4">
+              Workshop paper
             </a>
             
           </div>
@@ -546,7 +541,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Preprint, 2019</div>
+          <div class="col-12 col-md-9">NeurIPS Workshop on Machine Learning With Guarantees</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -556,14 +551,13 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><i>Preliminary version in NeurIPS Workshop on Advances in Approximate Bayesian Inference (AABI).</i></p>
-</div>
+    <div class="article-style"></div>
 
     
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/probmodeling/">probmodeling</a>
+  <a class="badge badge-light" href="/tags/workshop/">workshop</a>
   
 </div>
 
@@ -591,11 +585,11 @@
   <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
       
-      <img class="portrait mr-3" src="/authors/admin/avatar_huef7cafd292b86a6f98a5554d75a4ef67_1605391_250x250_fill_q90_lanczos_center.JPG" itemprop="image" alt="Avatar">
+      <img class="portrait mr-3" src="/authors/admin/avatar_huec0516f0ce5d6d6c8a0c3463799d3f34_151278_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
     
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Diana R. Cai</a></h5>
+      <h5 class="card-title" itemprop="name"><a href="/authors/admin/">Diana Cai</a></h5>
       
       <p class="card-text" itemprop="description">I am broadly interested in probabilistic modeling, and in particular, theory and methods for robust, scalable, and nonparametric Bayesian modeling.</p>
       <ul class="network-icon" aria-hidden="true">

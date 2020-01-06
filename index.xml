@@ -6,10 +6,19 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://dicai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <link>https://dicai.github.io/publication/conference-paper/2019-finmix/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2019-finmix/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
@@ -38,6 +47,15 @@ Nonparametrics, 2016.&lt;/i&gt;
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2017-finmix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Funding Resources for Junior Women in CS, Stats, Machine Learning</title>
+      <link>https://dicai.github.io/post/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/post/</guid>
       <description></description>
     </item>
     
