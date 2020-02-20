@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons. Using digraphons, we first show how to construct models for exchangeable directed graphs, including special cases such as tournaments, linear orderings, directed acyclic graphs, and partial orderings. We then show how to construct priors on digraphons via the infinite relational digraphon model (di-IRM), a new Bayesian nonparametric block model for exchangeable directed graphs, and demonstrate inference on synthetic data.">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/journal-article/2016-digraphons/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2020-weighted-maml/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/publication/journal-article/2016-digraphons/">
+  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2020-weighted-maml/">
 
   
   
@@ -134,21 +134,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/publication/journal-article/2016-digraphons/">
-  <meta property="og:title" content="Priors on exchangeable directed graphs | Diana R. Cai">
-  <meta property="og:description" content="Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons. Using digraphons, we first show how to construct models for exchangeable directed graphs, including special cases such as tournaments, linear orderings, directed acyclic graphs, and partial orderings. We then show how to construct priors on digraphons via the infinite relational digraphon model (di-IRM), a new Bayesian nonparametric block model for exchangeable directed graphs, and demonstrate inference on synthetic data."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2020-weighted-maml/">
+  <meta property="og:title" content="Weighted meta-learning | Diana R. Cai">
+  <meta property="og:description" content=""><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-10-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-02-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2016-10-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2020-02-01T00:00:00&#43;00:00">
   
 
   
 
-  <title>Priors on exchangeable directed graphs | Diana R. Cai</title>
+  
+
+  <title>Weighted meta-learning | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -333,7 +333,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Priors on exchangeable directed graphs</h1>
+  <h1 itemprop="name">Weighted meta-learning</h1>
 
   
 
@@ -342,8 +342,8 @@
 
 
 
-<meta content="2016-10-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2016-10-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2020-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-02-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -356,7 +356,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Diana Cai</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nathanael-ackerman/">Nathanael Ackerman</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/cameron-freer/">Cameron Freer</a></span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/admin/">Diana Cai</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/rishit-sheth/">Rishit Sheth</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lester-mackey/">Lester Mackey</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nicolo-fusi/">Nicolo Fusi</a></span>
 
   </div>
   
@@ -368,7 +368,7 @@
     
       
     
-    <time>October 2016</time>
+    <time>February 2020</time>
   </span>
   
 
@@ -456,14 +456,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -483,22 +477,6 @@
 
 
 
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://arxiv.org/abs/1510.08440" target="_blank" rel="noopener">
-    
-    arXiv
-  </a>
 
 
 </div>
@@ -512,9 +490,6 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons. Using digraphons, we first show how to construct models for exchangeable directed graphs, including special cases such as tournaments, linear orderings, directed acyclic graphs, and partial orderings. We then show how to construct priors on digraphons via the infinite relational digraphon model (di-IRM), a new Bayesian nonparametric block model for exchangeable directed graphs, and demonstrate inference on synthetic data.</p>
-    
 
     
     <div class="row">
@@ -527,8 +502,8 @@
 
             
             
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -545,7 +520,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Electronic Journal of Statistics</div>
+          <div class="col-12 col-md-9">In submission</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -555,14 +530,13 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><i>Preliminary version in the NIPS Workshop on Bayesian Nonparametrics, 2015. </i></p>
-</div>
+    <div class="article-style"></div>
 
     
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/publication/">publication</a>
+  <a class="badge badge-light" href="/tags/meta-learning/">meta-learning</a>
   
 </div>
 
