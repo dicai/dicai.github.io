@@ -6,10 +6,34 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://dicai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
+      <description>&lt;p&gt;Preliminary version in &lt;i&gt;NeurIPS 2019 Workshop on Machine Learning with Guarantees&lt;/i&gt;
+&lt;a
+href=&#34;https://drive.google.com/file/d/1MKgwA6fFKd2lfKPUaoVXeYtJBjwdP6nv/view&#34;&gt;[pdf]&lt;/a&gt;,
+and also
+the &lt;i&gt;Symposium on Advances in Approximate Bayesian Inference 2017&lt;/i&gt;,
+    co-located with NeurIPS 2017.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Weighted meta-learning</title>
+      <link>https://dicai.github.io/publication/conference-paper/2020-weighted-maml/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-maml/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finite mixture models are typically inconsistent for the number of components</title>
@@ -21,7 +45,7 @@
     </item>
     
     <item>
-      <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
+      <title>A Bayesian nonparametric view on count-min sketch</title>
       <link>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       

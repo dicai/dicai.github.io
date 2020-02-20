@@ -6,10 +6,28 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
+      <description>Preliminary version in NeurIPS 2019 Workshop on Machine Learning with Guarantees [pdf], and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.</description>
+    </item>
+    
+    <item>
+      <title>Weighted meta-learning</title>
+      <link>https://dicai.github.io/publication/conference-paper/2020-weighted-maml/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-maml/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finite mixture models are typically inconsistent for the number of components</title>
@@ -21,7 +39,7 @@
     </item>
     
     <item>
-      <title>A Bayesian Nonparametric View on Count-Min Sketch</title>
+      <title>A Bayesian nonparametric view on count-min sketch</title>
       <link>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
@@ -113,10 +131,11 @@
     <item>
       <title></title>
       <link>https://dicai.github.io/authors/admin/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/admin/</guid>
-      <description>I am a PhD student at Princeton University in Computer Science and am broadly interested in machine learning and statistics, with an emphasis on developing robust and reliable methods for probabilistic modeling and Bayesian inference. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also work with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group.</description>
+      <description>I am a PhD student at Princeton University in Computer Science and am broadly interested in machine learning and statistics. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also work with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group.
+Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.</description>
     </item>
     
   </channel>
