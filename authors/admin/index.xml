@@ -6,18 +6,18 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Finite mixture models are typically inconsistent for the number of components</title>
-      <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <title>Weighted meta-learning</title>
+      <link>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
-      <description>Preliminary version in NeurIPS 2019 Workshop on Machine Learning with Guarantees [pdf], and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.</description>
+      <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -140,7 +140,7 @@
     <item>
       <title></title>
       <link>https://dicai.github.io/authors/admin/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/admin/</guid>
       <description>I am a PhD student at Princeton University in Computer Science and am broadly interested in machine learning and statistics. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also work with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group.

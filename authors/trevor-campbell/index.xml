@@ -6,7 +6,7 @@
     <description>Recent content in Trevor Campbell on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/authors/trevor-campbell/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Finite mixture models are typically inconsistent for the number of components</title>
       <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
-      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
       <description>Preliminary version in NeurIPS 2019 Workshop on Machine Learning with Guarantees [pdf], and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.</description>
