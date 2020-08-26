@@ -6,10 +6,68 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://dicai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Funding Resources for Junior Women in Machine Learning and Statistics</title>
+      <link>https://dicai.github.io/post/funding/</link>
+      <pubDate>Mon, 24 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/post/funding/</guid>
+      <description>
+
+&lt;h1 id=&#34;fellowships-scholarships-and-grants&#34;&gt;Fellowships, Scholarships, and Grants&lt;/h1&gt;
+
+&lt;p&gt;Below is a list of fellowships, scholarships, and grants  for graduate students,
+      typically geared toward women or underrepesented groups in computing:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/research/academic-program/ada-lovelace-fellowship/&#34; target=&#34;_blank&#34;&gt;Microsoft Ada Lovelace PhD Fellowship&lt;/a&gt;: 2nd year PhD students at time of application&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/research/academic-program/dissertation-grant/&#34; target=&#34;_blank&#34;&gt;Microsoft Dissertation Grant&lt;/a&gt;: 4th year PhD or above at time of application&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.google/outreach/phd-fellowship/&#34; target=&#34;_blank&#34;&gt;Google PhD Fellowship&lt;/a&gt;: 3rd year or above when Fellowship begins (as of 2020, for North American universities, 2+ nominations need to be students from underrepresented groups)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.womentechmakers.com/scholars&#34; target=&#34;_blank&#34;&gt;Women Techmakers Scholarship&lt;/a&gt;: undergraduate, masters, and PhD students&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amstat.org/ASA/Your-Career/Awards/Gertrude-M-Cox-Scholarship.aspx&#34; target=&#34;_blank&#34;&gt;Gertrude M. Cox Scholarship&lt;/a&gt;: MS or PhD students&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lorealusa.com/csr-commitments/l%E2%80%99or%C3%A9al-usa-for-women-in-science-program&#34; target=&#34;_blank&#34;&gt;Loreal USA for Women in Science&lt;/a&gt;: postdoctoral fellowship&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;conference-support&#34;&gt;Conference support&lt;/h1&gt;
+
+&lt;h2 id=&#34;machine-learning-conferences&#34;&gt;Machine Learning conferences&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://buildyourfuture.withgoogle.com/scholarships/google-travel-scholarships/&#34; target=&#34;_blank&#34;&gt;Google Conference and Travel Scholarships&lt;/a&gt;: registration and travel support to attend select conferences&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://neurips.cc/public/DiversityInclusion&#34; target=&#34;_blank&#34;&gt;NeurIPS&lt;/a&gt; and &lt;a href=&#34;https://icml.cc/&#34; target=&#34;_blank&#34;&gt;ICML&lt;/a&gt; often offer D&amp;amp;I scholarships for underrepresented groups in ML, including women&lt;/li&gt;
+&lt;li&gt;ML/AI affinity groups: often offer travel (or registration) assistance to co-located conferences
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://wimlworkshop.org/&#34; target=&#34;_blank&#34;&gt;Women in Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/wicv/&#34; target=&#34;_blank&#34;&gt;Women in Computer Vision&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.winlp.org/&#34; target=&#34;_blank&#34;&gt;Widening NLP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blackinai.github.io/&#34; target=&#34;_blank&#34;&gt;Black in AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://elesa.github.io/ability_in_AI/&#34; target=&#34;_blank&#34;&gt;{Dis}Ability in AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.latinxinai.org/&#34; target=&#34;_blank&#34;&gt;LatinX in AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sites.google.com/view/queer-in-ai/&#34; target=&#34;_blank&#34;&gt;Queer in AI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;statistics-conferences&#34;&gt;Statistics conferences&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cwstat.org/&#34; target=&#34;_blank&#34;&gt;Caucus for Women In Statistics&lt;/a&gt;: offers travel awards for women to attend JSM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;career-development-networking-etc&#34;&gt;Career development, networking, etc.&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cra.org/cra-wp/scholarships-and-awards/scholarships/ghc-research-scholars/#tab-id-4&#34; target=&#34;_blank&#34;&gt;CRA-WP Grace Hopper Celebration Research Scholars
+Program&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cra.org/cra-wp/grad-cohort-for-women/&#34; target=&#34;_blank&#34;&gt;CRA Grad Cohor Workshop for Women&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Finite mixture models are typically inconsistent for the number of components</title>
@@ -81,15 +139,6 @@ Nonparametrics, 2016.&lt;/i&gt;
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2017-finmix/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Funding Resources for Junior Women in CS, Stats, Machine Learning</title>
-      <link>https://dicai.github.io/post/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/post/</guid>
       <description></description>
     </item>
     
