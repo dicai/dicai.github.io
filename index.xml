@@ -190,7 +190,8 @@ I try to watch that before reading the paper in depth &amp;ndash; that way I com
 already knowing the picture picture idea and main concepts before diving into
 the details.&lt;/p&gt;
 
-&lt;p&gt;Tips for early on: keep a detailed note-tracking system for papers, and have these backed up via cloud storage or version control. You may even consider keeping a citation system. When you do a big-picture read, it’s helpful to write down your version of the big picture summary, so you can refer back to it later. This is especially useful when it’s time to write up a paper and you’re going back to review and organize related work. Taking notes and revisiting them upon second or third readings of a paper is also useful for gaining new insights on a topic &amp;ndash; oftentimes when you’re new to a topic, you don’t have as much context to fully understand some parts of a paper.&lt;/p&gt;
+&lt;p&gt;Tips for early on: keep a detailed note-tracking system for papers, and have these backed up via cloud storage or &lt;a href=&#34;https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet&#34; target=&#34;_blank&#34;&gt;version control&lt;/a&gt;.
+You may even consider keeping a citation system. When you do a big-picture read, it’s helpful to write down your version of the big picture summary, so you can refer back to it later. This is especially useful when it’s time to write up a paper and you’re going back to review and organize related work. Taking notes and revisiting them upon second or third readings of a paper is also useful for gaining new insights on a topic &amp;ndash; oftentimes when you’re new to a topic, you don’t have as much context to fully understand some parts of a paper.&lt;/p&gt;
 
 &lt;p&gt;I am generally skeptical of tools that you have to pay a monthly subscription to use, as I value persistence of my notes and workflow (and sometimes tools stop being supported or start charging for more than two devices).&lt;/p&gt;
 
@@ -300,9 +301,16 @@ I think it&amp;rsquo;s important to be especially gentle with ourselves and othe
 Graduate school itself is filled with moments of imposter syndrome, failure, isolation, and
 stress.
 So being proactive about building up your physical and mental health is crucial
-for preparing you for potential tough situations.&lt;/p&gt;
+for preparing you for potential tough situations:&lt;/p&gt;
 
-&lt;p&gt;Get lots of sleep, drink lots of water, and eat healthily. Try to prioritize getting some exercise and spending some time outdoors every day. Establish a strong support group &amp;ndash; talk to a therapist, your mentors, and friends and family regularly. Develop some hobbies outside of work (lately for me: k-dramas and Valorant). Try to maintain a regular sleep schedule and daily routine if possible.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get lots of sleep, drink lots of water, and eat healthily.&lt;/li&gt;
+&lt;li&gt;Try to prioritize getting some exercise and spending some time outdoors every day.&lt;/li&gt;
+&lt;li&gt;Establish a strong support group &amp;ndash; talk to a therapist, your mentors, and friends and family regularly.
+(&lt;strong&gt;At Princeton:&lt;/strong&gt; check out the CS Grad and GSG Slack Groups.)&lt;/li&gt;
+&lt;li&gt;Develop and maintain some hobbies outside of work (lately for me: k-dramas and Valorant).&lt;/li&gt;
+&lt;li&gt;Try to maintain a regular sleep schedule and daily routine.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;work-from-home-tips&#34;&gt;Work from home tips&lt;/h3&gt;
 
@@ -311,7 +319,7 @@ You might want to consider if your advisor, department, or university has resour
 I’d also check with your advisor (or department) to see if they have funds for a tablet for online meetings &amp;ndash; if not, I’ve found that paper+pen and webcam can also be useful for communicating in online video calls.
 Try to maintain some separation of work and life, and try to keep your work area clean!&lt;/p&gt;
 
-&lt;p&gt;I&amp;rsquo;d emphasize trying to stay organized &amp;ndash; right now the extra lack of structure and
+&lt;p&gt;Stay organized &amp;ndash; right now the extra lack of structure and
 interactions makes it easy for the days to just blend together.
 These days I really rely on calendar invites to keep track of what I need to do.
 I&amp;rsquo;ve tried a lot of various organization tools. Currently, I&amp;rsquo;ve been using a
@@ -322,7 +330,8 @@ needs to get done soon and update the list when new tasks come up.&lt;/p&gt;
 &lt;h3 id=&#34;take-a-break&#34;&gt;Take a break!&lt;/h3&gt;
 
 &lt;p&gt;Some days are not going to be that productive &amp;ndash; and that’s ok! Take time off if you need to, but also when you don’t need it so you don’t burn out.
-In academia, there is a culture of overworking and projecting the image of
+In academia, there is a &lt;a href=&#34;http://jxyzabc.blogspot.com/2016/09/on-avoiding-stress-culture.html&#34; target=&#34;_blank&#34;&gt;culture&lt;/a&gt;
+of overworking and projecting the image of
 working all the time, and this is something I actively try to resist.
    During the semester, I almost always take fall and spring break off and take at least a week off during summer/winter holidays. I also try to not work on the weekends and evenings and generally push back now when people try to schedule work meetings on the weekends or during the evening*.&lt;/p&gt;
 
