@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters---i.e. components containing at least one data point---in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is _ultraseverely inconsistent_&amp;colon; for any finite k, the posterior probability that the number of components is k converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets.">
+  <meta name="description" content="Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters---i.e. components containing at least one data point---in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is _ultraseverely inconsistent_&amp;colon; for any $k \in \mathbb{N}$, the posterior probability that the number of components is $k$ converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/journal-article/2020-finmix/">
@@ -136,7 +136,7 @@
   <meta property="og:site_name" content="Diana R. Cai">
   <meta property="og:url" content="https://dicai.github.io/publication/journal-article/2020-finmix/">
   <meta property="og:title" content="Finite mixture models are typically inconsistent for the number of components | Diana R. Cai">
-  <meta property="og:description" content="Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters---i.e. components containing at least one data point---in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is _ultraseverely inconsistent_&amp;colon; for any finite k, the posterior probability that the number of components is k converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:description" content="Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters---i.e. components containing at least one data point---in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is _ultraseverely inconsistent_&amp;colon; for any $k \in \mathbb{N}$, the posterior probability that the number of components is $k$ converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2020-07-08T00:00:00&#43;00:00">
@@ -317,16 +317,9 @@
         
         
         
-          
-          
-          
-            
-          
-          
-        
 
         <li class="nav-item">
-          <a class="nav-link " href="/#posts">
+          <a class="nav-link " href="/post/">
             
             <span>Resources</span>
             
@@ -460,19 +453,6 @@
 
   
     
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    <li>
-      <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=&amp;url="
-         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
-      </a>
-    </li>
-
-  </ul>
-</div>
-
 
   
 
@@ -557,7 +537,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters&mdash;i.e. components containing at least one data point&mdash;in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is <em>ultraseverely inconsistent</em>&colon; for any finite k, the posterior probability that the number of components is k converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets.</p>
+    <p class="pub-abstract" itemprop="text">Scientists and engineers are often interested in learning the number of subpopulations (or components) present in a data set. Practitioners commonly use a Dirichlet process mixture model (DPMM) for this purpose; in particular, they count the number of clusters&mdash;i.e. components containing at least one data point&mdash;in the DPMM posterior.  But Miller and Harrison (2013) warn that the DPMM cluster-count posterior is severely inconsistent for the number of latent components when the data are truly generated from a finite mixture; that is, the cluster-count posterior probability on the true generating number of components goes to zero in the limit of infinite data.  A potential alternative is to use a finite mixture model (FMM) with a prior on the number of components.  Past work has shown the resulting FMM component-count posterior is consistent.  But existing results crucially depend on the assumption that the component likelihoods are perfectly specified. In practice, this assumption is unrealistic, and empirical evidence (Miller and Dunson, 2019) suggests that the FMM posterior on the number of components is sensitive to the likelihood choice. In this paper, we add rigor to data-analysis folk wisdom by proving that under even the slightest model misspecification, the FMM posterior on the number of components is <em>ultraseverely inconsistent</em>&colon; for any $k \in \mathbb{N}$, the posterior probability that the number of components is $k$ converges to 0 in the limit of infinite data.  We illustrate practical consequences of our theory on simulated and real data sets.</p>
     
 
     
@@ -714,6 +694,9 @@ the <i>Symposium on Advances in Approximate Bayesian Inference 2017</i>,
 
     
     
+    
+    <script src="/js/mathjax-config.js"></script>
+    
 
     
     
@@ -730,6 +713,8 @@ the <i>Symposium on Advances in Approximate Bayesian Inference 2017</i>,
       
 
       
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 

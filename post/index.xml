@@ -6,10 +6,20 @@
     <description>Recent content in Resources on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tips for New PhD Students in Machine Learning</title>
+      <link>https://dicai.github.io/post/tips-new-phd-students/</link>
+      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/post/tips-new-phd-students/</guid>
+      <description>Starting a PhD in itself is full of many challenges, but many students starting this fall will have to navigate the extra hurdle of being in a virtual environment along with many other challenges. Here I’m attempting to write down what I’d tell my junior colleagues starting a PhD in the US &amp;ndash; geared toward students in Computer Science, and especially Machine Learning &amp;ndash; including some Princeton-specific thoughts.
+Table of Contents HAHAHUGOSHORTCODE-TOC0-HBHB</description>
+    </item>
     
     <item>
       <title>Funding Resources for Junior Women in Machine Learning and Statistics</title>
