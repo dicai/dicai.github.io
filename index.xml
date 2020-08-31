@@ -65,7 +65,7 @@ you work on for the rest of your career!&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/great-research/do-you-need-a-ph-d-f78d2fb0f286&#34; target=&#34;_blank&#34;&gt;Nick Feamster - Do You Need a Ph.D.?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;how-to-balance-classes-breadth-foundations-vs-research-depth&#34;&gt;How to balance classes (breadth &amp;amp; foundations) vs research (depth)&lt;/h2&gt;
+&lt;h2 id=&#34;balancing-classes-breadth-foundations-vs-research-depth&#34;&gt;Balancing classes (breadth &amp;amp; foundations) vs research (depth)&lt;/h2&gt;
 
 &lt;p&gt;Over time, I’ve come to see coursework as an opportunity to learn from someone who is an expert in some area and as a chance to really expand your toolkit.
 So I’d recommend trying to take some foundational courses in your earlier years if you can,
@@ -170,7 +170,7 @@ with your peers and/or ask your advisor if you can give a practice talk.&lt;/p&g
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/13vwchlzQAZjjfiI3AiBC_kM-syI6GJKzbuZoLxgy1a4&#34; target=&#34;_blank&#34;&gt;Trevor Campbell on &amp;ldquo;How to Explain Things&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;how-to-navigate-the-literature&#34;&gt;How to navigate the literature&lt;/h2&gt;
+&lt;h2 id=&#34;navigating-the-literature&#34;&gt;Navigating the literature&lt;/h2&gt;
 
 &lt;p&gt;As a graduate student, you’ll quickly realize how many papers there are: journal papers, conference papers, workshop papers, arXiv papers, etc. You might wonder how to possibly keep up with all the papers being put out every day. My answer to this is: you don’t &amp;ndash; but more on this later.&lt;/p&gt;
 
@@ -182,20 +182,26 @@ with your peers and/or ask your advisor if you can give a practice talk.&lt;/p&g
 &lt;li&gt;&lt;strong&gt;Detailed read:&lt;/strong&gt; big-picture read + carefully reading (and re-reading) many or all of the technical sections of the paper&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;My workflow: Most papers I read only get at most a big-picture read. I also do a lot of high-level browsing of papers from daily arXiv email blasts (I’m subscribed to stat.ML and math.ST), and I generally make a mental note of anything directly relevant to my research.
-If it’s not too relevant to my work but seems interesting, I try to save it using the Google Keep browser plugin.
-Typically papers I read more carefully are longer, journal articles and take a lot of time for me to digest; these are usually papers directly related to a research project I’m currently working on or if I’m trying to get a deep understanding of a new topic.
+&lt;p&gt;My workflow: Most papers I read only get a &lt;em&gt;big-picture read&lt;/em&gt;.
+I also do a lot of high-level browsing of papers from &lt;a href=&#34;https://arxiv.org/help/subscribe&#34; target=&#34;_blank&#34;&gt;daily arXiv email blasts&lt;/a&gt;
+(I’m subscribed to stat.ML and math.ST), and I generally make a note of anything directly relevant to my research.
+If it’s not too relevant to my work but seems interesting, I try to save it using the &lt;a href=&#34;https://keep.google.com/u/0/&#34; target=&#34;_blank&#34;&gt;Google Keep&lt;/a&gt; browser plugin.&lt;/p&gt;
+
+&lt;p&gt;Typically papers I read carefully are longer, journal articles and take a lot of time for me to digest;
+these are usually papers directly related to a research project I’m currently working on
+or papers that provide a deep understanding of a new topic I&amp;rsquo;m trying to
+understand.
 Also, if there&amp;rsquo;s a talk available (e.g., from a conference, workshop, tutorial, or summer school),
-I try to watch that before reading the paper in depth &amp;ndash; that way I come in
-already knowing the picture picture idea and main concepts before diving into
+I try to watch that before reading the paper in depth; that way I come in
+already knowing the main idea and concepts before diving into
 the details.&lt;/p&gt;
 
 &lt;p&gt;Tips for early on: keep a detailed note-tracking system for papers, and have these backed up via cloud storage or &lt;a href=&#34;https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet&#34; target=&#34;_blank&#34;&gt;version control&lt;/a&gt;.
-You may even consider keeping a citation system. When you do a big-picture read, it’s helpful to write down your version of the big picture summary, so you can refer back to it later. This is especially useful when it’s time to write up a paper and you’re going back to review and organize related work. Taking notes and revisiting them upon second or third readings of a paper is also useful for gaining new insights on a topic &amp;ndash; oftentimes when you’re new to a topic, you don’t have as much context to fully understand some parts of a paper.&lt;/p&gt;
+You may even consider keeping a citation system. When you do a big-picture read, it’s helpful to write down your version of the big picture summary, so you can refer back to it later. This is especially useful when it’s time to write up a paper and you’re going back to review and organize related work. Taking notes and revisiting them upon second or third readings of a paper is also useful for gaining new insights on a topic &amp;ndash; oftentimes when you’re new to a topic, you don’t have as much context or background to fully understand some parts of a paper.&lt;/p&gt;
 
-&lt;p&gt;I am generally skeptical of tools that you have to pay a monthly subscription to use, as I value persistence of my notes and workflow (and sometimes tools stop being supported or start charging for more than two devices).&lt;/p&gt;
-
-&lt;p&gt;Here are some tools I personally use as of the current writing:&lt;/p&gt;
+&lt;p&gt;I am generally skeptical of tools that you have to pay a monthly subscription to use,
+  as I value persistence of my notes and workflow (and sometimes tools stop being supported or start charging for more than two devices).
+Here are some tools I personally use as of the current writing:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;For detailed research notes: I like to have these notes in &lt;a href=&#34;https://www.dianacai.com/blog/2018/06/28/latex-vim-skim-setup/&#34; target=&#34;_blank&#34;&gt;LaTeX + pdf&lt;/a&gt; format and in backed up in a git repository.&lt;/li&gt;
@@ -231,10 +237,13 @@ ideas.&lt;/p&gt;
 &lt;li&gt;General introductions about your backgrounds&lt;/li&gt;
 &lt;li&gt;Ask about what they’re currently excited about&lt;/li&gt;
 &lt;li&gt;Tell them a bit about your current interests or a project you’re working on&lt;/li&gt;
-&lt;li&gt;Other interests outside of research&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Generally, researchers and academics love to talk about their own work, and so if you feel like you don’t have much to say yourself, this is an easy way to fill a meeting. But I’d also encourage you to chat about some of your interests &amp;ndash; it’s totally fine to say you just got started but are really interested in X because of Y.&lt;/p&gt;
+&lt;p&gt;Generally, researchers and academics love to talk about their own work, and so if you feel like you don’t have much to say yourself, this is an easy way to fill a meeting.
+But I’d also encourage you to chat about some of your interests &amp;ndash;
+part of the graduate school experience is learning how to get out of your comfort zone and building
+up your confidence;
+it’s totally fine to say you just got started with research but are really interested in X because of Y.&lt;/p&gt;
 
 &lt;h2 id=&#34;have-a-website-and-update-it-regularly&#34;&gt;Have a website and update it regularly&lt;/h2&gt;
 
