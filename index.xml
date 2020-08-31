@@ -6,7 +6,7 @@
     <description>Recent content on Diana R. Cai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://dicai.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Tips for New PhD Students in Machine Learning</title>
       <link>https://dicai.github.io/post/tips-new-phd-students/</link>
-      <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 30 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/post/tips-new-phd-students/</guid>
       <description>
@@ -185,7 +185,7 @@ with your peers and/or ask your advisor if you can give a practice talk.&lt;/p&g
 &lt;p&gt;Here are some tools I personally use as of the current writing:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;For detailed research notes: I like to have these notes in LaTeX + pdf format and in backed up in a git repository&lt;/li&gt;
+&lt;li&gt;For detailed research notes: I like to have these notes in &lt;a href=&#34;https://www.dianacai.com/blog/2018/06/28/latex-vim-skim-setup/&#34; target=&#34;_blank&#34;&gt;LaTeX + pdf&lt;/a&gt; format and in backed up in a git repository&lt;/li&gt;
 &lt;li&gt;Notability for iOS and MacOS: I’ve been using my ipad to keep a lot of notes on each of my projects, meeting notes, notes from talks and lectures, and paper annotation notes. Recently I also got the desktop app in order to make it easier to add papers and typed notes.&lt;/li&gt;
 &lt;li&gt;Google Keep for super quick notes: e.g., I save papers that might be relevant after doing a high-level browse using the browser extension.&lt;/li&gt;
 &lt;li&gt;I keep detailed folders of papers (in Dropbox) to allow for fast search of titles/authors&lt;/li&gt;
