@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>trait allocations on Diana R. Cai</title>
+    <link>https://dicai.github.io/tags/trait-allocations/</link>
+    <description>Recent content in trait allocations on Diana R. Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/tags/trait-allocations/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exchangeable trait allocations</title>
+      <link>https://dicai.github.io/publication/journal-article/2018-traitexch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2018-traitexch/</guid>
+      <description>In EJS 2018</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Diana R. Cai</title>
@@ -6,18 +6,27 @@
     <description>Recent content in Publications on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Finite mixture models are typically inconsistent for the number of components</title>
+      <title>Power posteriors do not reliably learn the number of components in a finite mixture</title>
+      <link>https://dicai.github.io/publication/conference-paper/2020-power-mix/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2020-power-mix/</guid>
+      <description>See also: Finite mixture models do not reliably learn the number of components (arXiv e-print 2007.04470) for results on learning the number of components in a finite mixture model via the usual posterior distribution.</description>
+    </item>
+    
+    <item>
+      <title>Finite mixture models do not reliably learn the number of components</title>
       <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
-      <description>NeurIPS 2019 Workshop on Machine Learning with Guarantees [pdf], and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017. -- </description>
+      <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.</description>
     </item>
     
     <item>
@@ -26,7 +35,7 @@
       <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</guid>
-      <description></description>
+      <description>A longer version of this article is available on the arXiv (link).</description>
     </item>
     
     <item>
@@ -35,7 +44,7 @@
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning/</guid>
-      <description></description>
+      <description>Preliminary version appeared in the ICML 2020 Workshop on AutoML.</description>
     </item>
     
     <item>

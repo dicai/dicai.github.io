@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks on Diana R. Cai</title>
@@ -6,9 +6,28 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 16 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finite mixtures do not reliably learn the number of components</title>
+      <link>https://dicai.github.io/talk/2020baysmo/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/talk/2020baysmo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic inference under model misspecification</title>
+      <link>https://dicai.github.io/talk/2020umd/</link>
+      <pubDate>Mon, 26 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/talk/2020umd/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

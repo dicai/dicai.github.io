@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Diana R. Cai</title>
@@ -6,17 +6,44 @@
     <description>Recent content in Tags on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>preprint</title>
-      <link>https://dicai.github.io/tags/preprint/</link>
-      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      <title>learning the number of components</title>
+      <link>https://dicai.github.io/tags/learning-the-number-of-components/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/tags/preprint/</guid>
+      <guid>https://dicai.github.io/tags/learning-the-number-of-components/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mixture models</title>
+      <link>https://dicai.github.io/tags/mixture-models/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/mixture-models/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model misspecification</title>
+      <link>https://dicai.github.io/tags/model-misspecification/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/model-misspecification/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robustness</title>
+      <link>https://dicai.github.io/tags/robustness/</link>
+      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/robustness/</guid>
       <description></description>
     </item>
     
@@ -30,6 +57,33 @@
     </item>
     
     <item>
+      <title>learning from multiple sources</title>
+      <link>https://dicai.github.io/tags/learning-from-multiple-sources/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/learning-from-multiple-sources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maximum mean discrepancy</title>
+      <link>https://dicai.github.io/tags/maximum-mean-discrepancy/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/maximum-mean-discrepancy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>task similarity</title>
+      <link>https://dicai.github.io/tags/task-similarity/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/task-similarity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>workshop</title>
       <link>https://dicai.github.io/tags/workshop/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
@@ -39,18 +93,99 @@
     </item>
     
     <item>
-      <title>probmodeling</title>
-      <link>https://dicai.github.io/tags/probmodeling/</link>
+      <title>Bayesian inference</title>
+      <link>https://dicai.github.io/tags/bayesian-inference/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/tags/probmodeling/</guid>
+      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian nonparametrics</title>
+      <link>https://dicai.github.io/tags/bayesian-nonparametrics/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/bayesian-nonparametrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>count-min sketch</title>
+      <link>https://dicai.github.io/tags/count-min-sketch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/count-min-sketch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data streaming</title>
+      <link>https://dicai.github.io/tags/data-streaming/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/data-streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data structures</title>
+      <link>https://dicai.github.io/tags/data-structures/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/data-structures/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exchangeability</title>
+      <link>https://dicai.github.io/tags/exchangeability/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/exchangeability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exchangeable partition probability functions</title>
+      <link>https://dicai.github.io/tags/exchangeable-partition-probability-functions/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/exchangeable-partition-probability-functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>paintbox representations</title>
+      <link>https://dicai.github.io/tags/paintbox-representations/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/paintbox-representations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>probabilistic modeling</title>
+      <link>https://dicai.github.io/tags/probabilistic-modeling/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/probabilistic-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trait allocations</title>
+      <link>https://dicai.github.io/tags/trait-allocations/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/trait-allocations/</guid>
       <description></description>
     </item>
     
     <item>
       <title>publication</title>
       <link>https://dicai.github.io/tags/publication/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/publication/</guid>
       <description></description>
@@ -62,6 +197,15 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/graphs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>preprint</title>
+      <link>https://dicai.github.io/tags/preprint/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/preprint/</guid>
       <description></description>
     </item>
     
