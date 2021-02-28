@@ -6,17 +6,53 @@
     <description>Recent content in Authors on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Diana Cai*</title>
-      <link>https://dicai.github.io/authors/diana-cai/</link>
-      <pubDate>Thu, 08 Oct 2020 00:00:00 +0000</pubDate>
+      <title>Barbara E. Engelhardt</title>
+      <link>https://dicai.github.io/authors/barbara-e.-engelhardt/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/authors/diana-cai/</guid>
+      <guid>https://dicai.github.io/authors/barbara-e.-engelhardt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chuteng Zhou</title>
+      <link>https://dicai.github.io/authors/chuteng-zhou/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/chuteng-zhou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David M. Zoltowski</title>
+      <link>https://dicai.github.io/authors/david-m.-zoltowski/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/david-m.-zoltowski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gregory G. Gundersen</title>
+      <link>https://dicai.github.io/authors/gregory-g.-gundersen/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/gregory-g.-gundersen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ryan P. Adams</title>
+      <link>https://dicai.github.io/authors/ryan-p.-adams/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/ryan-p.-adams/</guid>
       <description></description>
     </item>
     
@@ -36,16 +72,6 @@
       
       <guid>https://dicai.github.io/authors/trevor-campbell/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://dicai.github.io/authors/admin/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/authors/admin/</guid>
-      <description>I am a PhD student at Princeton University in Computer Science and am broadly interested in machine learning and statistics. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also work with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group.
-Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.</description>
     </item>
     
     <item>
@@ -85,15 +111,6 @@ Previously, I received an A.B. in Computer Science and Statistics from Harvard U
     </item>
     
     <item>
-      <title>Ryan P. Adams</title>
-      <link>https://dicai.github.io/authors/ryan-p.-adams/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/authors/ryan-p.-adams/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cameron Freer</title>
       <link>https://dicai.github.io/authors/cameron-freer/</link>
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
@@ -108,6 +125,24 @@ Previously, I received an A.B. in Computer Science and Statistics from Harvard U
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/nathanael-ackerman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://dicai.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/admin/</guid>
+      <description>I am a PhD student at Princeton University in Computer Science. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also collaborate with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group. Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.</description>
+    </item>
+    
+    <item>
+      <title>&lt;b&gt;Diana Cai&lt;/b&gt;</title>
+      <link>https://dicai.github.io/authors/bdiana-cai/b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/authors/bdiana-cai/b/</guid>
       <description></description>
     </item>
     

@@ -6,10 +6,19 @@
     <description>Recent content in 3 on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Active multi-fidelity Bayesian online changepoint detection</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>

@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2015-powerlaws/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2015-powerlaws/">
+  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
 
   
   
@@ -134,21 +134,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2015-powerlaws/">
-  <meta property="og:title" content="Completely random measures for modeling power laws in graphs | Diana R. Cai">
-  <meta property="og:description" content=""><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
+  <meta property="og:title" content="Slice sampling reparameterized gradients | Diana R. Cai">
+  <meta property="og:description" content="Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2015-12-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2021-01-01T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2015-12-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2021-01-01T00:00:00&#43;00:00">
   
 
   
 
-  <title>Completely random measures for modeling power laws in graphs | Diana R. Cai</title>
+  
+
+  <title>Slice sampling reparameterized gradients | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -432,7 +432,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Completely random measures for modeling power laws in graphs</h1>
+  <h1 itemprop="name">Slice sampling reparameterized gradients</h1>
 
   
 
@@ -441,8 +441,8 @@
 
 
 
-<meta content="2015-12-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2015-12-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -456,8 +456,9 @@
 
 
   <span itemprop="author name" itemtype="http://schema.org/Person">
+        David M. Zoltowski</span>, <span itemprop="author name" itemtype="http://schema.org/Person">
         <!-- raw HTML omitted -->Diana Cai<!-- raw HTML omitted --></span>, <span itemprop="author name" itemtype="http://schema.org/Person">
-        Tamara Broderick</span>
+        Ryan P. Adams</span>
 
   </div>
   
@@ -469,7 +470,7 @@
     
       
     
-    <time>December 2015</time>
+    <time>January 2021</time>
   </span>
   
 
@@ -518,8 +519,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=cT_RMSqVf4" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -533,6 +540,22 @@
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="http://approximateinference.org/accepted/" target="_blank" rel="noopener">
+    
+    Symposium Link
+  </a>
 
 
 </div>
@@ -545,6 +568,9 @@
 
   <div class="article-container">
 
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior.</p>
     
 
     
@@ -576,7 +602,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">NeurIPS 2015 Workshop on Networks in the Social and Information Sciences</div>
+          <div class="col-12 col-md-9">Symposium on Advances in Approximate Bayesian Inference</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -592,7 +618,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/workshop/">workshop</a>
+  <a class="badge badge-light" href="/tags/mcmc/">MCMC</a>
   
 </div>
 
