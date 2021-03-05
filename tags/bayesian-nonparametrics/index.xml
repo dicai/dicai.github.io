@@ -17,7 +17,7 @@
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</guid>
-      <description></description>
+      <description>Citation @inproceedings{cai2018bayesian, title={A Bayesian nonparametric view on count-min sketch}, author={Cai, Diana and Mitzenmacher, Michael and Adams, Ryan P}, booktitle={Proceedings of the 32nd International Conference on Neural Information Processing Systems}, pages={8782--8791}, year={2018} } </description>
     </item>
     
   </channel>

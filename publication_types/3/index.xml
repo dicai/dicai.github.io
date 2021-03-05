@@ -26,7 +26,8 @@
       <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
-      <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.</description>
+      <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.
+Citation @article{cai2020finite, title={Finite mixture models do not reliably learn the number of components}, author={Cai, Diana and Sheth, Rishit and Mackey, Lester and Fusi, Nicolo}, journal={arXiv preprint arXiv:2007.04470}, year={2020} } </description>
     </item>
     
     <item>
@@ -35,7 +36,8 @@
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning/</guid>
-      <description>Preliminary version appeared in the ICML 2020 Workshop on AutoML.</description>
+      <description>Preliminary version appeared in the ICML 2020 Workshop on AutoML.
+Citation @article{cai2020weighted, title={Weighted Meta-Learning}, author={Cai, Diana and Sheth, Rishit and Mackey, Lester and Fusi, Nicolo}, journal={arXiv preprint arXiv:2003.09465}, year={2020} } </description>
     </item>
     
     <item>
