@@ -20,5 +20,23 @@
       <description>Citation @inproceedings{cai2018bayesian, title={A Bayesian nonparametric view on count-min sketch}, author={Cai, Diana and Mitzenmacher, Michael and Adams, Ryan P}, booktitle={Proceedings of the 32nd International Conference on Neural Information Processing Systems}, pages={8782--8791}, year={2018} } </description>
     </item>
     
+    <item>
+      <title>Exchangeable trait allocations</title>
+      <link>https://dicai.github.io/publication/journal-article/2018-traitexch/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2018-traitexch/</guid>
+      <description>In EJS 2018</description>
+    </item>
+    
+    <item>
+      <title>Edge-exchangeable graphs and sparsity</title>
+      <link>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</guid>
+      <description>In NeurIPS 2016</description>
+    </item>
+    
   </channel>
 </rss>

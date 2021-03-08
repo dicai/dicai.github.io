@@ -28,6 +28,16 @@
   </url>
   
   <url>
+    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/changepoint-detection/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/chuteng-zhou/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -73,12 +83,27 @@
   </url>
   
   <url>
+    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://dicai.github.io/tags/stochastic-gradients/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/time-series/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -223,11 +248,6 @@
   </url>
   
   <url>
-    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
-    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://dicai.github.io/tags/bayesian-nonparametrics/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
   </url>
@@ -293,12 +313,12 @@
   </url>
   
   <url>
-    <loc>https://dicai.github.io/publication/conference-paper/2016-paintbox/</loc>
+    <loc>https://dicai.github.io/tags/graphs/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dicai.github.io/tags/publication/</loc>
+    <loc>https://dicai.github.io/publication/conference-paper/2016-paintbox/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -318,12 +338,12 @@
   </url>
   
   <url>
-    <loc>https://dicai.github.io/tags/graphs/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <loc>https://dicai.github.io/tags/publication/</loc>
+    <lastmod>2016-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://dicai.github.io/project/robust/</loc>
+    <loc>https://dicai.github.io/project/inference/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
@@ -338,7 +358,7 @@
   </url>
   
   <url>
-    <loc>https://dicai.github.io/project/constrained/</loc>
+    <loc>https://dicai.github.io/project/robust/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   

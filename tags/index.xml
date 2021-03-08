@@ -12,11 +12,56 @@
     
     
     <item>
+      <title>Bayesian inference</title>
+      <link>https://dicai.github.io/tags/bayesian-inference/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>changepoint detection</title>
+      <link>https://dicai.github.io/tags/changepoint-detection/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/changepoint-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>MCMC</title>
       <link>https://dicai.github.io/tags/mcmc/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/mcmc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slice sampling</title>
+      <link>https://dicai.github.io/tags/slice-sampling/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/slice-sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stochastic gradients</title>
+      <link>https://dicai.github.io/tags/stochastic-gradients/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/stochastic-gradients/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time series</title>
+      <link>https://dicai.github.io/tags/time-series/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/time-series/</guid>
       <description></description>
     </item>
     
@@ -102,15 +147,6 @@
     </item>
     
     <item>
-      <title>Bayesian inference</title>
-      <link>https://dicai.github.io/tags/bayesian-inference/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bayesian nonparametrics</title>
       <link>https://dicai.github.io/tags/bayesian-nonparametrics/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
@@ -192,20 +228,20 @@
     </item>
     
     <item>
-      <title>publication</title>
-      <link>https://dicai.github.io/tags/publication/</link>
+      <title>graphs</title>
+      <link>https://dicai.github.io/tags/graphs/</link>
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/tags/publication/</guid>
+      <guid>https://dicai.github.io/tags/graphs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>graphs</title>
-      <link>https://dicai.github.io/tags/graphs/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>publication</title>
+      <link>https://dicai.github.io/tags/publication/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/tags/graphs/</guid>
+      <guid>https://dicai.github.io/tags/publication/</guid>
       <description></description>
     </item>
     

@@ -12,11 +12,11 @@
     
     
     <item>
-      <title>Probabilistic modeling and robust ML</title>
-      <link>https://dicai.github.io/project/robust/</link>
+      <title>Approximate Bayesian inference</title>
+      <link>https://dicai.github.io/project/inference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/project/robust/</guid>
+      <guid>https://dicai.github.io/project/inference/</guid>
       <description></description>
     </item>
     
@@ -30,11 +30,11 @@
     </item>
     
     <item>
-      <title>Resource-constrained ML</title>
-      <link>https://dicai.github.io/project/constrained/</link>
+      <title>Reliable probabilistic modeling</title>
+      <link>https://dicai.github.io/project/robust/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/project/constrained/</guid>
+      <guid>https://dicai.github.io/project/robust/</guid>
       <description></description>
     </item>
     

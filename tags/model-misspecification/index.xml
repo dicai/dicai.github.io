@@ -30,5 +30,14 @@
 Citation @article{cai2020finite, title={Finite mixture models do not reliably learn the number of components}, author={Cai, Diana and Sheth, Rishit and Mackey, Lester and Fusi, Nicolo}, journal={arXiv preprint arXiv:2007.04470}, year={2020} } </description>
     </item>
     
+    <item>
+      <title>Edge-exchangeable graphs and sparsity</title>
+      <link>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</guid>
+      <description>In NeurIPS 2016</description>
+    </item>
+    
   </channel>
 </rss>
