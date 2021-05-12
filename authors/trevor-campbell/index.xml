@@ -6,7 +6,21 @@
     <description>Recent content in Trevor Campbell on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/trevor-campbell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/authors/trevor-campbell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Finite mixture models do not reliably learn the number of components</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</guid>
+      <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.
+Citation @article{cai2020finite, title={Finite mixture models do not reliably learn the number of components}, author={Cai, Diana and Campbell, Trevor and Broderick, Tamara}, journal={arXiv preprint arXiv:2007.04470}, year={2020} } </description>
+    </item>
+    
     <item>
       <title>Power posteriors do not reliably learn the number of components in a finite mixture</title>
       <link>https://dicai.github.io/publication/conference-paper/2020-power-mix/</link>
@@ -14,16 +28,6 @@
       
       <guid>https://dicai.github.io/publication/conference-paper/2020-power-mix/</guid>
       <description>See also: Finite mixture models do not reliably learn the number of components (arXiv e-print 2007.04470) for results on learning the number of components in a finite mixture model via the usual posterior distribution.</description>
-    </item>
-    
-    <item>
-      <title>Finite mixture models do not reliably learn the number of components</title>
-      <link>https://dicai.github.io/publication/journal-article/2020-finmix/</link>
-      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/publication/journal-article/2020-finmix/</guid>
-      <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.
-Citation @article{cai2020finite, title={Finite mixture models do not reliably learn the number of components}, author={Cai, Diana and Campbell, Trevor and Broderick, Tamara}, journal={arXiv preprint arXiv:2007.04470}, year={2020} } </description>
     </item>
     
     <item>

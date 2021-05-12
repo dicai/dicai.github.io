@@ -1,253 +1,426 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://dicai.github.io/publication_types/3/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/4/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/barbara-e.-engelhardt/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/changepoint-detection/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/chuteng-zhou/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/david-m.-zoltowski/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/diana-cai/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/gregory-g.-gundersen/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/mcmc/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/stochastic-gradients/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/time-series/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/talk/2020baysmo/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/talk/2021isba/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/talk/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/diana-cai/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/learning-the-number-of-components/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/mixture-models/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/model-misspecification/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication_types/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/tamara-broderick/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/trevor-campbell/</loc>
+    <lastmod>2021-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication_types/4/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/barbara-e.-engelhardt/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/changepoint-detection/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/chuteng-zhou/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/david-m.-zoltowski/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/gregory-g.-gundersen/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/mcmc/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/stochastic-gradients/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/tags/time-series/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dicai.github.io/talk/2020baysmo/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/talk/2020umd/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/learning-the-number-of-components/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/mixture-models/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/model-misspecification/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2020-power-mix/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/robustness/</loc>
     <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/tamara-broderick/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/trevor-campbell/</loc>
-    <lastmod>2020-10-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/post/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/post/tips-new-phd-students/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/post/funding/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/journal-article/2020-finmix/</loc>
-    <lastmod>2020-07-08T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/lester-mackey/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/meta-learning/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/nicolo-fusi/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/rishit-sheth/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/learning-from-multiple-sources/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/maximum-mean-discrepancy/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/task-similarity/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2019-finmix/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/workshop/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication_types/1/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication_types/2/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2018-cmsketch/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/bayesian-nonparametrics/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/count-min-sketch/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/data-streaming/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/data-structures/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/exchangeability/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/exchangeable-partition-probability-functions/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/journal-article/2018-traitexch/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/michael-mitzenmacher/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/paintbox-representations/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/probabilistic-modeling/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/trait-allocations/</loc>
     <lastmod>2018-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2017-finmix/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/graphs/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2016-paintbox/</loc>
     <lastmod>2016-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/cameron-freer/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/nathanael-ackerman/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/journal-article/2016-digraphons/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/publication/</loc>
     <lastmod>2016-10-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/project/inference/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/project/structured/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/project/robust/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2015-powerlaws/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2015-edgeexch-networks/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2015-edgeexch-bnp/</loc>
     <lastmod>2015-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/conference-paper/2014-isfe/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/preprint/</loc>
     <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication_types/7/</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/publication/theses/2014-thesis/</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/tags/thesis/</loc>
     <lastmod>2014-05-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/admin/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/authors/bdiana-cai/b/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/categories/</loc>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://dicai.github.io/news/</loc>
   </url>
+  
 </urlset>
