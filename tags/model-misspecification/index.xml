@@ -6,7 +6,7 @@
     <description>Recent content in model misspecification on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/tags/model-misspecification/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>
       <link>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</link>
-      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</guid>
       <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.

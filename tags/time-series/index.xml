@@ -6,7 +6,7 @@
     <description>Recent content in time series on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dicai.github.io/tags/time-series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Active multi-fidelity Bayesian online changepoint detection</title>
       <link>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</guid>
       <description>Citation @article{gundersen2021active, title={Active multi-fidelity Bayesian online changepoint detection}, author={Gundersen, Gregory W and Cai, Diana and Zhou, Chuteng and Engelhardt, Barbara E and Adams, Ryan P}, journal={arXiv preprint arXiv:2103.14224}, year={2021} } </description>
