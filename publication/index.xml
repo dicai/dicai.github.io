@@ -6,10 +6,15 @@
     <description>Recent content in Publications on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slice sampling reparameterized gradients</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</guid>
+      <description>Preliminary version appeared in the AABI Symposium in January 2021.</description>
+    </item>
     
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>
@@ -32,10 +37,10 @@ Citation @article{cai2020finite, title={Finite mixture models do not reliably le
     
     <item>
       <title>Slice sampling reparameterized gradients</title>
-      <link>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</link>
+      <link>https://dicai.github.io/publication/conference-paper/2021-reparam-slice-wkshp/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</guid>
+      <guid>https://dicai.github.io/publication/conference-paper/2021-reparam-slice-wkshp/</guid>
       <description></description>
     </item>
     

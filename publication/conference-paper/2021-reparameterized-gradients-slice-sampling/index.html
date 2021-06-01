@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior.">
+  <meta name="description" content="Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute _slice sampling reparameterization gradients_, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
@@ -91,7 +91,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.83f37373e8d3a9e9b1a12d316c89baa1.css">
+  <link rel="stylesheet" href="/css/academic.min.42d29ab88869c832df9d4dc10c8adb6c.css">
 
   
 
@@ -136,12 +136,12 @@
   <meta property="og:site_name" content="Diana R. Cai">
   <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
   <meta property="og:title" content="Slice sampling reparameterized gradients | Diana R. Cai">
-  <meta property="og:description" content="Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:description" content="Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute _slice sampling reparameterization gradients_, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2021-05-28T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-01-01T00:00:00&#43;00:00">
+  <meta property="article:modified_time" content="2021-05-28T00:00:00&#43;00:00">
   
 
   
@@ -441,8 +441,8 @@
 
 
 
-<meta content="2021-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-05-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2021-05-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -467,7 +467,7 @@
     
       
     
-    <time>January 2021</time>
+    <time>May 2021</time>
   </span>
   
 
@@ -516,14 +516,8 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/pdf?id=cT_RMSqVf4" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -537,22 +531,6 @@
 
 
 
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="http://approximateinference.org/accepted/" target="_blank" rel="noopener">
-    
-    Symposium Link
-  </a>
 
 
 </div>
@@ -567,7 +545,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions, with the convenient property that it is rejection-free. When the slice endpoints are known, the sampling path is a deterministic function of noise variables since there are no accept-reject steps like those in Metropolis-Hastings algorithms. Here we describe how to differentiate the slice sampling path to compute slice sampling reparameterization gradients. Since slice sampling does not require a normalizing constant, this allows for computing reparameterization gradients of samples from potentially complicated multivariate distributions.  We apply the method in synthetic examples and to fit a variational autoencoder with a conditional energy-based model approximate posterior.</p>
+    <p class="pub-abstract" itemprop="text">Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute <em>slice sampling reparameterization gradients</em>, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions.</p>
     
 
     
@@ -581,8 +559,8 @@
 
             
             
-            <a href="/publication/#4">
-              Workshop paper
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -599,7 +577,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Symposium on Advances in Approximate Bayesian Inference</div>
+          <div class="col-12 col-md-9">Submitted</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -609,7 +587,8 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style"><p><em>Preliminary version appeared in the AABI Symposium in January 2021.</em></p>
+</div>
 
     
 
@@ -782,7 +761,7 @@
     
     
     
-    <script src="/js/academic.min.a8ff40d18bce6e6b0934f2e922b05b21.js"></script>
+    <script src="/js/academic.min.39c8dc9cb91433558ef31de739736368.js"></script>
 
   </body>
 </html>

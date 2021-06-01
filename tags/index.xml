@@ -6,10 +6,33 @@
     <description>Recent content in Tags on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MCMC</title>
+      <link>https://dicai.github.io/tags/mcmc/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/mcmc/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>slice sampling</title>
+      <link>https://dicai.github.io/tags/slice-sampling/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/slice-sampling/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>stochastic gradients</title>
+      <link>https://dicai.github.io/tags/stochastic-gradients/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/stochastic-gradients/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>learning the number of components</title>
@@ -62,33 +85,6 @@
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/time-series/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MCMC</title>
-      <link>https://dicai.github.io/tags/mcmc/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/mcmc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>slice sampling</title>
-      <link>https://dicai.github.io/tags/slice-sampling/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/slice-sampling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stochastic gradients</title>
-      <link>https://dicai.github.io/tags/stochastic-gradients/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/stochastic-gradients/</guid>
       <description></description>
     </item>
     

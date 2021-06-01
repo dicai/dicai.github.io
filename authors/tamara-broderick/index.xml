@@ -6,11 +6,7 @@
     <description>Recent content in Tamara Broderick on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://dicai.github.io/authors/tamara-broderick/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/tamara-broderick/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>
       <link>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</link>
