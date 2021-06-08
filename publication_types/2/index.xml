@@ -13,7 +13,7 @@
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2018-traitexch/</guid>
-      <description>In EJS 2018</description>
+      <description>Trait allocations are a class of combinatorial structures in which data may belong to multiple groups and may have different levels of belonging in each group. Often the data are also exchangeable, i.e., their joint distribution is invariant to reordering. In clustering—a special case of trait allocation—exchangeability &amp;hellip;</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@
       <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2016-digraphons/</guid>
-      <description>In EJS 2016</description>
+      <description>Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons &amp;hellip;</description>
     </item>
     
   </channel>

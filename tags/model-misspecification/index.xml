@@ -32,7 +32,16 @@ Citation @article{cai2020finite, title={Finite mixture models do not reliably le
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</guid>
-      <description>In NeurIPS 2016</description>
+      <description>Many popular network models rely on the assumption of (vertex) exchangeability, in which the distribution of the graph is invariant to relabelings of the vertices. However, the Aldous-Hoover theorem guarantees that these graphs are dense or empty with probability one, whereas many real-world graphs are sparse &amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Priors on exchangeable directed graphs</title>
+      <link>https://dicai.github.io/publication/journal-article/2016-digraphons/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2016-digraphons/</guid>
+      <description>Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons &amp;hellip;</description>
     </item>
     
   </channel>

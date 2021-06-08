@@ -41,7 +41,7 @@ Citation @article{cai2020finite, title={Finite mixture models do not reliably le
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/journal-article/2018-traitexch/</guid>
-      <description>In EJS 2018</description>
+      <description>Trait allocations are a class of combinatorial structures in which data may belong to multiple groups and may have different levels of belonging in each group. Often the data are also exchangeable, i.e., their joint distribution is invariant to reordering. In clustering—a special case of trait allocation—exchangeability &amp;hellip;</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@ Citation @article{cai2020finite, title={Finite mixture models do not reliably le
       <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2016-edgeexch/</guid>
-      <description>In NeurIPS 2016</description>
+      <description>Many popular network models rely on the assumption of (vertex) exchangeability, in which the distribution of the graph is invariant to relabelings of the vertices. However, the Aldous-Hoover theorem guarantees that these graphs are dense or empty with probability one, whereas many real-world graphs are sparse &amp;hellip;</description>
     </item>
     
     <item>
