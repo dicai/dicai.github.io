@@ -6,15 +6,15 @@
     <description>Recent content in Tamara Broderick on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/tamara-broderick/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/tamara-broderick/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>
       <link>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</guid>
       <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.
-Citation @article{cai2020finite, title={Finite mixture models do not reliably learn the number of components}, author={Cai, Diana and Campbell, Trevor and Broderick, Tamara}, journal={arXiv preprint arXiv:2007.04470}, year={2020} } </description>
+Citation @InProceedings{pmlr-v139-cai21a, title = {Finite mixture models do not reliably learn the number of components}, author = {Cai, Diana and Campbell, Trevor and Broderick, Tamara}, booktitle = {Proceedings of the 38th International Conference on Machine Learning}, pages = {1158--1169}, year = {2021}, volume = {139}, series = {Proceedings of Machine Learning Research}, publisher = {PMLR} } </description>
     </item>
     
     <item>
