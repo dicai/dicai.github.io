@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stochastic gradients on Diana R. Cai</title>
+    <link>https://dicai.github.io/tags/stochastic-gradients/</link>
+    <description>Recent content in stochastic gradients on Diana R. Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/stochastic-gradients/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slice sampling reparameterized gradients</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</guid>
+      <description>Preliminary version appeared in the AABI Symposium in January 2021.</description>
+    </item>
+    
+    <item>
+      <title>Slice sampling reparameterized gradients</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-reparam-slice-wkshp/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-reparam-slice-wkshp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
