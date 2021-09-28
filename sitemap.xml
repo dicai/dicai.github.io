@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://dicai.github.io/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/talk/2021birs/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
@@ -11,20 +11,50 @@
     <loc>https://dicai.github.io/talk/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dicai.github.io/talk/2021ness/</loc>
+    <lastmod>2020-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/1/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/david-m.-zoltowski/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/diana-cai/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/mcmc/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/stochastic-gradients/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/</loc>
+    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dicai.github.io/talk/2021aalto/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/talk/2021isba/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/1/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/diana-cai/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
@@ -38,41 +68,11 @@
     <loc>https://dicai.github.io/tags/model-misspecification/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/publication_types/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/</loc>
-    <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/authors/tamara-broderick/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/trevor-campbell/</loc>
     <lastmod>2021-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/3/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/david-m.-zoltowski/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/mcmc/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/stochastic-gradients/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/</loc>
     <lastmod>2021-03-01T00:00:00+00:00</lastmod>
@@ -136,6 +136,9 @@
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/tags/learning-from-multiple-sources/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>

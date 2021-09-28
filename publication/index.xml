@@ -6,7 +6,16 @@
     <description>Recent content in Publications on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Slice sampling reparameterized gradients</title>
+      <link>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</guid>
+      <description>Preliminary version appeared in the AABI Symposium in January 2021.</description>
+    </item>
+    
     <item>
       <title>Finite mixture models do not reliably learn the number of components</title>
       <link>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</link>
@@ -15,15 +24,6 @@
       <guid>https://dicai.github.io/publication/conference-paper/2021-finite-mixtures-unreliable/</guid>
       <description>Preliminary versions appeared in NeurIPS 2019 Workshop on Machine Learning with Guarantees and also the Symposium on Advances in Approximate Bayesian Inference 2017, co-located with NeurIPS 2017.
 Citation @InProceedings{pmlr-v139-cai21a, title = {Finite mixture models do not reliably learn the number of components}, author = {Cai, Diana and Campbell, Trevor and Broderick, Tamara}, booktitle = {Proceedings of the 38th International Conference on Machine Learning}, pages = {1158--1169}, year = {2021}, volume = {139}, series = {Proceedings of Machine Learning Research}, publisher = {PMLR} } </description>
-    </item>
-    
-    <item>
-      <title>Slice sampling reparameterized gradients</title>
-      <link>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</link>
-      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/</guid>
-      <description>Preliminary version appeared in the AABI Symposium in January 2021.</description>
     </item>
     
     <item>

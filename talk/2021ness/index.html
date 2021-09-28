@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute _slice sampling reparameterization gradients_, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions.">
+  <meta name="description" content="">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/talk/2021ness/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
+  <link rel="canonical" href="https://dicai.github.io/talk/2021ness/">
 
   
   
@@ -134,21 +134,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
-  <meta property="og:title" content="Slice sampling reparameterized gradients | Diana R. Cai">
-  <meta property="og:description" content="Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute _slice sampling reparameterization gradients_, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/talk/2021ness/">
+  <meta property="og:title" content="Finite mixture models do not reliably learn the number of components | Diana R. Cai">
+  <meta property="og:description" content=""><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2021-09-28T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2020-08-24T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2021-09-28T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2020-08-30T00:00:00&#43;00:00">
   
 
   
 
-  <title>Slice sampling reparameterized gradients | Diana R. Cai</title>
+  
+
+  <title>Finite mixture models do not reliably learn the number of components | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -411,7 +411,7 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+<div class="pub" itemscope itemtype="http://schema.org/Event">
 
   
 
@@ -432,7 +432,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Slice sampling reparameterized gradients</h1>
+  <h1 itemprop="name">Finite mixture models do not reliably learn the number of components</h1>
 
   
 
@@ -441,34 +441,14 @@
 
 
 
-<meta content="2021-09-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-09-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2021-10-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-08-30 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
   
   
-  
-  
-  <div>
-    
 
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">David M. Zoltowski</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryan P. Adams</span>
-
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    <time>September 2021</time>
-  </span>
   
 
   
@@ -503,37 +483,6 @@
 
 
 
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-</div>
 
 
   
@@ -544,24 +493,17 @@
   <div class="article-container">
 
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute <em>slice sampling reparameterization gradients</em>, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions.</p>
+      <br>
     
 
-    
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
             
-
-            
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
+            Oct 2, 2021
             
           </div>
         </div>
@@ -569,15 +511,30 @@
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
-    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-9">
+            <a href="https://symposium.nestat.org/" target="_blank" rel="noopener">
+            New England Statistics Symposium
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
 
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Advances in Neural Information Processing Systems (NeurIPS)</div>
+          <div class="col-12 col-md-3 pub-row-heading">Location</div>
+          <div class="col-12 col-md-9">34th New England Statistics Symposium, University of Rhode Island</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -587,20 +544,11 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><p><em>Preliminary version appeared in the AABI Symposium in January 2021.</em></p>
-</div>
+    <div class="article-style">
+      
+    </div>
 
     
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/stochastic-gradients/">stochastic gradients</a>
-  
-  <a class="badge badge-light" href="/tags/slice-sampling/">slice sampling</a>
-  
-  <a class="badge badge-light" href="/tags/mcmc/">MCMC</a>
-  
-</div>
 
 
     
@@ -612,10 +560,6 @@
 
 
 
-  
-  
-    
-  
   
 
 
@@ -625,13 +569,97 @@
   
   <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hub4134268469b192c2ada0d3c6b5f5206_385180_250x250_fill_q95_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+      <h5 class="card-title" itemprop="name"><a href="/">Diana Cai</a></h5>
       
       
-      
+      <p class="card-text" itemprop="description">I am broadly interested in machine learning and statistics, and in particular, developing robust and reliable methods for modeling and inference.</p>
       <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://www.dropbox.com/s/1ksm39zn67dbq1c/cv_short.pdf?dl=0" target="_blank" rel="noopener">
+              <i class="ai ai-cv"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=WrLjBYgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/dianarycai" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/dicai" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
         
       </ul>
     </div>
