@@ -135,7 +135,7 @@
   
   <meta property="og:site_name" content="Diana R. Cai">
   <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">
-  <meta property="og:title" content="Slice sampling reparameterized gradients | Diana R. Cai">
+  <meta property="og:title" content="Slice sampling reparameterization gradients | Diana R. Cai">
   <meta property="og:description" content="Many probabilistic modeling problems in machine learning use gradient-based optimization in which the objective takes the form of an expectation. These problems can be challenging when the parameters to be optimized determine the probability distribution under which the expectation is being taken, as the naive Monte Carlo procedure is not differentiable. Reparameterization gradients make it possible to efficiently perform optimization of these Monte Carlo objectives by transforming the expectation to be differentiable, but the approach is typically limited to distributions with simple forms and tractable normalization constants. Here we describe how to differentiate samples from slice sampling to compute _slice sampling reparameterization gradients_, enabling a richer class of Monte Carlo objective functions to be optimized. Slice sampling is a Markov chain Monte Carlo algorithm for simulating samples from probability distributions; it only requires a density function that can be evaluated point-wise up to a normalization constant, making it applicable to a variety of inference problems and unnormalized models. Our approach is based on the observation that when the slice endpoints are known, the sampling path is a deterministic and differentiable function of the pseudo-random variables, since the algorithm is rejection-free. We evaluate the method on synthetic examples and apply it to a variety of applications with reparameterization of unnormalized probability distributions."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
@@ -148,7 +148,7 @@
 
   
 
-  <title>Slice sampling reparameterized gradients | Diana R. Cai</title>
+  <title>Slice sampling reparameterization gradients | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -432,7 +432,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Slice sampling reparameterized gradients</h1>
+  <h1 itemprop="name">Slice sampling reparameterization gradients</h1>
 
   
 
