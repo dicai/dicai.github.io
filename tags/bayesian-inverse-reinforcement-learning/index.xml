@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian inverse reinforcement learning on Diana R. Cai</title>
+    <link>https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/</link>
+    <description>Recent content in Bayesian inverse reinforcement learning on Diana R. Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
