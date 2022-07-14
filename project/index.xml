@@ -6,14 +6,23 @@
     <description>Recent content in Projects on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Approximate Bayesian inference</title>
+      <title>Reliable machine learning</title>
+      <link>https://dicai.github.io/project/robust/</link>
+      <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/project/robust/</guid>
+      <description>Making probabilistic machine learning more robust to model misspecification</description>
+    </item>
+    
+    <item>
+      <title>Approximate inference</title>
       <link>https://dicai.github.io/project/inference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/project/inference/</guid>
-      <description></description>
+      <description>Accelerating and improving computational algorithms for accurate Bayesian inference</description>
     </item>
     
     <item>
@@ -26,12 +35,12 @@
     </item>
     
     <item>
-      <title>Reliable probabilistic modeling</title>
-      <link>https://dicai.github.io/project/robust/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Bayesian nonparametrics</title>
+      <link>https://dicai.github.io/project/bnp/</link>
+      <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/project/robust/</guid>
-      <description></description>
+      <guid>https://dicai.github.io/project/bnp/</guid>
+      <description>Developing flexible Bayesian models and studying their properties</description>
     </item>
     
   </channel>

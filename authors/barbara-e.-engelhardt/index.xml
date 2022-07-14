@@ -6,13 +6,22 @@
     <description>Recent content in Barbara E. Engelhardt on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/barbara-e.-engelhardt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/barbara-e.-engelhardt/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</title>
+      <title>Kernel Density Bayesian inverse reinforcement learning</title>
       <link>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</link>
-      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-birl-aabi/</link>
+      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-birl-aabi/</guid>
       <description></description>
     </item>
     

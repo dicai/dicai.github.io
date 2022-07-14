@@ -6,7 +6,25 @@
     <description>Recent content in 3 on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-fidelity Monte Carlo: a pseudo-marginal approach</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</link>
+      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</guid>
+      <description>Citation </description>
+    </item>
+    
+    <item>
+      <title>Kernel Density Bayesian inverse reinforcement learning</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Weighted meta-learning</title>
       <link>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning/</link>

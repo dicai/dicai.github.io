@@ -26,5 +26,14 @@ Citation @InProceedings{pmlr-v139-cai21a, title = {Finite mixture models do not 
       <description>See also: Finite mixture models do not reliably learn the number of components (arXiv e-print 2007.04470) for results on learning the number of components in a finite mixture model via the usual posterior distribution.</description>
     </item>
     
+    <item>
+      <title>Priors on exchangeable directed graphs</title>
+      <link>https://dicai.github.io/publication/journal-article/2016-digraphons/</link>
+      <pubDate>Sat, 01 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2016-digraphons/</guid>
+      <description>Directed graphs occur throughout statistical modeling of networks, and exchangeability is a natural assumption when the ordering of vertices does not matter. There is a deep structural theory for exchangeable undirected graphs, which extends to the directed case via measurable objects known as digraphons &amp;hellip;</description>
+    </item>
+    
   </channel>
 </rss>

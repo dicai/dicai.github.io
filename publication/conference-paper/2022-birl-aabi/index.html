@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +27,10 @@
   
     
   
-  <meta name="description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at Princeton University.">
+  <meta name="description" content="Inverse reinforcement learning (IRL) methods attempt to recover the reward function of an agent by observing its behavior. Given the large amount of uncertainty in the underlying reward function, it is often useful to model this function probabilistically, rather than estimate a single reward function.  However, existing Bayesian approaches to IRL use a $Q$-value function to approximate the likelihood, leading to a computationally intractable and inflexible framework. Here, we introduce kernel density Bayesian IRL (KD-BIRL), a method that uses kernel density estimation to approximate the likelihood. This lends itself to an efficient posterior inference for the reward function given a sequence of agent observations. Using both linear and nonlinear reward functions in a Gridworld environment, we demonstrate that the KD-BIRL posterior centers around the true reward function, and that our method is more efficient than existing approaches.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/authors/ryan-p.-adams/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2022-birl-aabi/">
 
   
 
@@ -116,15 +114,12 @@
   
 
   
-  <link rel="alternate" href="/authors/ryan-p.-adams/index.xml" type="application/rss+xml" title="Diana R. Cai">
-  <link rel="feed" href="/authors/ryan-p.-adams/index.xml" type="application/rss+xml" title="Diana R. Cai">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/authors/ryan-p.-adams/">
+  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2022-birl-aabi/">
 
   
   
@@ -139,19 +134,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/authors/ryan-p.-adams/">
-  <meta property="og:title" content="Ryan P. Adams | Diana R. Cai">
-  <meta property="og:description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at Princeton University."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2022-birl-aabi/">
+  <meta property="og:title" content="Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation | Diana R. Cai">
+  <meta property="og:description" content="Inverse reinforcement learning (IRL) methods attempt to recover the reward function of an agent by observing its behavior. Given the large amount of uncertainty in the underlying reward function, it is often useful to model this function probabilistically, rather than estimate a single reward function.  However, existing Bayesian approaches to IRL use a $Q$-value function to approximate the likelihood, leading to a computationally intractable and inflexible framework. Here, we introduce kernel density Bayesian IRL (KD-BIRL), a method that uses kernel density estimation to approximate the likelihood. This lends itself to an efficient posterior inference for the reward function given a sequence of agent observations. Using both linear and nonlinear reward functions in a Gridworld environment, we demonstrate that the KD-BIRL posterior centers around the true reward function, and that our method is more efficient than existing approaches."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-05-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2022-01-27T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-01-27T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>Ryan P. Adams | Diana R. Cai</title>
+  <title>Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -414,52 +411,254 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Ryan P. Adams</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2022-01-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-01-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Aishwarya Mandyam</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Didong Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Andrew Jones</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Barbara E. Engelhardt</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2022</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://openreview.net/group?id=approximateinference.org/AABI/2022/Symposium" target="_blank" rel="noopener">
+    
+    OpenReview
+  </a>
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Inverse reinforcement learning (IRL) methods attempt to recover the reward function of an agent by observing its behavior. Given the large amount of uncertainty in the underlying reward function, it is often useful to model this function probabilistically, rather than estimate a single reward function.  However, existing Bayesian approaches to IRL use a $Q$-value function to approximate the likelihood, leading to a computationally intractable and inflexible framework. Here, we introduce kernel density Bayesian IRL (KD-BIRL), a method that uses kernel density estimation to approximate the likelihood. This lends itself to an efficient posterior inference for the reward function given a sequence of agent observations. Using both linear and nonlinear reward functions in a Gridworld environment, we demonstrate that the KD-BIRL posterior centers around the true reward function, and that our method is more efficient than existing approaches.</p>
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+
+            
+            
+            <a href="/publication/#4">
+              Workshop paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
+
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/conference-paper/2022-multi-fidelity-mcmc/">Multi-fidelity Monte Carlo: a pseudo-marginal approach</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">Slice sampling reparameterization gradients</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/">Active multi-fidelity Bayesian online changepoint detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-reparam-slice-wkshp/">Slice sampling reparameterization gradients</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2018-cmsketch/">A Bayesian nonparametric view on count-min sketch</a>
-        </li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Symposium on Advances in Approximate Bayesian Inference</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/bayesian-inverse-reinforcement-learning/">Bayesian inverse reinforcement learning</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+      
+      
+      
+      <ul class="network-icon" aria-hidden="true">
         
       </ul>
     </div>
   </div>
-  
-</section>
+
+
+
+
+  </div>
+</div>
+
+
 
 <div class="container">
   <footer class="site-footer">

@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +27,10 @@
   
     
   
-  <meta name="description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at Princeton University.">
+  <meta name="description" content="Markov chain Monte Carlo (MCMC) is an established approach for uncertainty quantification and propagation in scientific applications.  A key challenge in applying MCMC to scientific domains is computation---the target density of interest is often a function of expensive computations, such as a high-fidelity physical simulation, an intractable integral, or a slowly-converging iterative algorithm.  Thus, using an MCMC algorithms with an expensive target density becomes impractical, as these expensive computations need  to be evaluated at each iteration of the algorithm.  In practice, these computations often approximated via a cheaper, low-fidelity computation, leading to bias in the resulting target density.  Multi-fidelity MCMC algorithms combine likelihoods of varying fidelities in order to obtain an approximate target density with lower computational cost.  In this paper, we describe a class of asymptotically exact multi-fidelity MCMC algorithms for the setting where a sequence of likelihoods of increasing fidelity can be computed that approximates the high-fidelity likelihood.  We take a pseudo-marginal MCMC approach for multi-fidelity inference that utilizes a low-fidelity unbiased estimator of the high-fidelity likelihood constructed via randomized truncation of a telescoping series of the low-fidelity sequence of models.  Finally, we discuss and evaluate the proposed multi-fidelity MCMC approach on several applications, including log-Gaussian Cox process modeling, Bayesian ODE system identification, PDE-constrained optimization, and Gaussian process regression parameter inference.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/authors/ryan-p.-adams/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/">
 
   
 
@@ -116,15 +114,12 @@
   
 
   
-  <link rel="alternate" href="/authors/ryan-p.-adams/index.xml" type="application/rss+xml" title="Diana R. Cai">
-  <link rel="feed" href="/authors/ryan-p.-adams/index.xml" type="application/rss+xml" title="Diana R. Cai">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/authors/ryan-p.-adams/">
+  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/">
 
   
   
@@ -139,19 +134,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/authors/ryan-p.-adams/">
-  <meta property="og:title" content="Ryan P. Adams | Diana R. Cai">
-  <meta property="og:description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at Princeton University."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/">
+  <meta property="og:title" content="Multi-fidelity Monte Carlo: a pseudo-marginal approach | Diana R. Cai">
+  <meta property="og:description" content="Markov chain Monte Carlo (MCMC) is an established approach for uncertainty quantification and propagation in scientific applications.  A key challenge in applying MCMC to scientific domains is computation---the target density of interest is often a function of expensive computations, such as a high-fidelity physical simulation, an intractable integral, or a slowly-converging iterative algorithm.  Thus, using an MCMC algorithms with an expensive target density becomes impractical, as these expensive computations need  to be evaluated at each iteration of the algorithm.  In practice, these computations often approximated via a cheaper, low-fidelity computation, leading to bias in the resulting target density.  Multi-fidelity MCMC algorithms combine likelihoods of varying fidelities in order to obtain an approximate target density with lower computational cost.  In this paper, we describe a class of asymptotically exact multi-fidelity MCMC algorithms for the setting where a sequence of likelihoods of increasing fidelity can be computed that approximates the high-fidelity likelihood.  We take a pseudo-marginal MCMC approach for multi-fidelity inference that utilizes a low-fidelity unbiased estimator of the high-fidelity likelihood constructed via randomized truncation of a telescoping series of the low-fidelity sequence of models.  Finally, we discuss and evaluate the proposed multi-fidelity MCMC approach on several applications, including log-Gaussian Cox process modeling, Bayesian ODE system identification, PDE-constrained optimization, and Gaussian process regression parameter inference."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2022-05-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2022-05-15T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-05-15T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>Ryan P. Adams | Diana R. Cai</title>
+  <title>Multi-fidelity Monte Carlo: a pseudo-marginal approach | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -414,52 +411,241 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
 
 
 
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Ryan P. Adams</h1>
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Multi-fidelity Monte Carlo: a pseudo-marginal approach</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2022-05-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-05-15 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryan P. Adams</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>May 2022</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
 </div>
 
 
-<section id="profile-page" class="pt-5">
-  <div class="container">
+  
+</div>
+
+
+
+  <div class="article-container">
+
     
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Markov chain Monte Carlo (MCMC) is an established approach for uncertainty quantification and propagation in scientific applications.  A key challenge in applying MCMC to scientific domains is computation&mdash;the target density of interest is often a function of expensive computations, such as a high-fidelity physical simulation, an intractable integral, or a slowly-converging iterative algorithm.  Thus, using an MCMC algorithms with an expensive target density becomes impractical, as these expensive computations need  to be evaluated at each iteration of the algorithm.  In practice, these computations often approximated via a cheaper, low-fidelity computation, leading to bias in the resulting target density.  Multi-fidelity MCMC algorithms combine likelihoods of varying fidelities in order to obtain an approximate target density with lower computational cost.  In this paper, we describe a class of asymptotically exact multi-fidelity MCMC algorithms for the setting where a sequence of likelihoods of increasing fidelity can be computed that approximates the high-fidelity likelihood.  We take a pseudo-marginal MCMC approach for multi-fidelity inference that utilizes a low-fidelity unbiased estimator of the high-fidelity likelihood constructed via randomized truncation of a telescoping series of the low-fidelity sequence of models.  Finally, we discuss and evaluate the proposed multi-fidelity MCMC approach on several applications, including log-Gaussian Cox process modeling, Bayesian ODE system identification, PDE-constrained optimization, and Gaussian process regression parameter inference.</p>
     
 
     
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
+
     
-    <div class="article-widget">
-      <div class="hr-light"></div>
-      <h3>Latest</h3>
-      <ul>
-        
-        <li>
-          <a href="/publication/conference-paper/2022-multi-fidelity-mcmc/">Multi-fidelity Monte Carlo: a pseudo-marginal approach</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-reparameterized-gradients-slice-sampling/">Slice sampling reparameterization gradients</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/">Active multi-fidelity Bayesian online changepoint detection</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2021-reparam-slice-wkshp/">Slice sampling reparameterization gradients</a>
-        </li>
-        
-        <li>
-          <a href="/publication/conference-paper/2018-cmsketch/">A Bayesian nonparametric view on count-min sketch</a>
-        </li>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Submitted</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><h2 id="citation">Citation</h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+</div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/slice-sampling/">slice sampling</a>
+  
+  <a class="badge badge-light" href="/tags/multi-fidelity-modeling/">multi-fidelity modeling</a>
+  
+  <a class="badge badge-light" href="/tags/bayesian-inference/">Bayesian inference</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+      
+      
+      
+      <ul class="network-icon" aria-hidden="true">
         
       </ul>
     </div>
   </div>
-  
-</section>
+
+
+
+
+  </div>
+</div>
+
+
 
 <div class="container">
   <footer class="site-footer">
