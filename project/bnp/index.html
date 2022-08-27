@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Making probabilistic machine learning more robust to model misspecification">
+  <meta name="description" content="Developing flexible Bayesian models and studying their properties">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/project/robust/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/project/bnp/">
 
   
 
@@ -119,7 +119,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/project/robust/">
+  <link rel="canonical" href="https://dicai.github.io/project/bnp/">
 
   
   
@@ -133,21 +133,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana R. Cai">
-  <meta property="og:url" content="https://dicai.github.io/project/robust/">
-  <meta property="og:title" content="Reliable machine learning | Diana R. Cai">
-  <meta property="og:description" content="Making probabilistic machine learning more robust to model misspecification"><meta property="og:image" content="https://dicai.github.io/project/robust/featured.jpeg">
+  <meta property="og:url" content="https://dicai.github.io/project/bnp/">
+  <meta property="og:title" content="Bayesian nonparametrics | Diana R. Cai">
+  <meta property="og:description" content="Developing flexible Bayesian models and studying their properties"><meta property="og:image" content="https://dicai.github.io/project/bnp/featured.jpeg">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-04-27T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2015-04-27T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2017-04-27T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2015-04-27T00:00:00&#43;00:00">
   
 
   
 
-  <title>Reliable machine learning | Diana R. Cai</title>
+  
+
+  <title>Bayesian nonparametrics | Diana R. Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -428,8 +428,8 @@
 
 
 <div class="article-header d-xl-none">
-  <div class="featured-image" style="background-image: url('/project/robust/featured_hu0554b2fe7bffe6f507f97e3011cec573_602912_800x0_resize_q95_lanczos.jpeg');"></div>
-  
+  <div class="featured-image" style="background-image: url('/project/bnp/featured_hu0554b2fe7bffe6f507f97e3011cec573_712349_800x0_resize_q95_lanczos.jpeg');"></div>
+  <span class="article-header-caption">Photo by rawpixel on Unsplash</span>
 </div>
 
 
@@ -438,7 +438,7 @@
     
       
         <br />
-        <h1 itemprop="name" align="center">Reliable machine learning</h1>
+        <h1 itemprop="name" align="center">Bayesian nonparametrics</h1>
 
         
 
@@ -505,7 +505,7 @@
 </div>
 
 <div class="article-container d-xl-none">
-  <h1 itemprop="name">Reliable machine learning</h1>
+  <h1 itemprop="name">Bayesian nonparametrics</h1>
 
   
 
@@ -513,8 +513,8 @@
 
 
 
-<meta content="2017-04-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2017-04-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2015-04-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2015-04-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -527,7 +527,7 @@
     
       
     
-    <time>Apr 27, 2017</time>
+    <time>Apr 27, 2015</time>
   </span>
   
 
@@ -605,32 +605,23 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Probabilistic methods are&mdash;in theory&mdash;robust, but crucially,
-operate on the assumption that the model is correct.
-Complex models are often necessary to accurately learn about
-sophisticated real-world phenomena, but
-even with careful model checking,
-some amount of model misspecification is inevitable.
-In some cases, this misspecification may lead to undesirable behavior,
-such as uninterpretable or even misleading results.</p>
-<p>My research focuses on studying misspecification in probabilistic models
-with the goal of understanding when our model assumptions lead to desirable
-behaviors and when they lead to misleading and uninterpretable inferences.
-My goal is to develop and understand statistical machine learning models
-under misspecification and distribution shift and the impact on decision making.</p>
-<p><img src="model_misspecification.jpeg?width=20pc" alt="approximate models">.</p>
-<p>A few current reseach directions for understanding and developing more robust machine
-learning methods include studying:</p>
+      <p>We develop flexible and interpretable nonparametric models and studying their properties, as well
+as scalable algorithms for these models.
+Some of the fundamental building blocks for nonparametric Bayesian models
+include the <a href="https://en.wikipedia.org/wiki/Dirichlet_process">Dirichlet process</a>
+and the <a href="https://en.wikipedia.org/wiki/Gaussian_process">Gaussian process</a>.</p>
+<p>Some existing work focuses on developing models and algorithms for:</p>
 <ul>
-<li>Model misspecification in <a href="/publication/conference-paper/2021-finite-mixtures-unreliable/">mixture models</a> and <a href="/publication/conference-paper/2020-power-mix/">methods for robust modeling</a></li>
-<li>Misspecification in network models including for <a href="/publication/conference-paper/2016-edgeexch/">sparsity and power laws</a></li>
-<li><a href="/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/">Online changepoint detection</a> for expensive models</li>
-<li><a href="/publication/conference-paper/2020-weighted-meta-learning/">Multi-source meta-learning and transfer learning</a></li>
-<li><a href="/publication/conference-paper/2022-bayesian-irl-kernel-density/">Flexible likelihood approximations</a> in inverse reinforcement learning</li>
+<li><a href="/tags/mixture-models/">mixture models</a> with growing number of components</li>
+<li><a href="/project/structured/">graphs and relational data modeling</a>,</li>
+<li>reducing <a href="/publication/conference-paper/2022-multi-fidelity-mcmc/">computational cost in inference in Gaussian processes</a></li>
+<li><a href="/tags/count-min-sketch/">count sketching</a>,
+and</li>
+<li>modeling with <a href="/tags/bayesian-inverse-reinforcement-learning/">conditional kernel density estimation</a> for inverse
+reinforcement learning applications</li>
 </ul>
-<p>See also our workshop at <a href="https://sites.google.com/view/robustbayes-neurips21/home?authuser=0">NeurIPS 2021: &ldquo;Your Model is Wrong: Robustness and
-misspecification in probabilistic machine
-learning&rdquo;</a>.</p>
+<p>See also our workshop at NeurIPS 2018: <a href="https://sites.google.com/view/nipsbnp2018/"><em>All of Bayesian Nonparametrics</em></a>
+and <a href="">References on Bayesian Nonparametrics</a> for additional references.</p>
 
     </div>
 
@@ -707,81 +698,6 @@ learning&rdquo;</a>.</p>
 
 
 
-
-</p>
-
-  
-</div>
-
-        
-      
-        
-          
-          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
-  <a href="/publication/conference-paper/2022-birl-aabi/" itemprop="name">Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</a>
-  <br />
-  <span itemprop="author" class="article-metadata li-cite-author"
-                  style="color:#1B2631">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Aishwarya Mandyam</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Didong Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Andrew Jones</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Barbara E. Engelhardt</span>
-
-  </span>
-  <br />
-  <i>
-  Symposium on Advances in Approximate Bayesian Inference,
-  
-  </i>2022
-  
-
-  <p>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openreview.net/group?id=approximateinference.org/AABI/2022/Symposium" target="_blank" rel="noopener">
-    
-    OpenReview
-  </a>
 
 </p>
 
@@ -942,114 +858,6 @@ learning&rdquo;</a>.</p>
   
   
 
-  <a href="/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/" itemprop="name">Active multi-fidelity Bayesian online changepoint detection</a>
-  <br />
-  <span itemprop="author" class="article-metadata li-cite-author"
-                  style="color:#1B2631">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person">Gregory G. Gundersen</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chuteng Zhou</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Barbara E. Engelhardt</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryan P. Adams</span>
-
-  </span>
-  <br />
-  <i>
-  Proceedings of the 37th Conference on Uncertainty in Artificial Intelligence (UAI),
-  
-  </i>2021
-  
-
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2103.14224.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/princetonlips/mf-bocd" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2103.14224" target="_blank" rel="noopener">
-    
-    arXiv
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/conference-paper/2021-active-multi-fidelity-bayesian-changepoint-detection/#citation" >
-    
-    BibTeX
-  </a>
-
-</p>
-
-  
-</div>
-
-        
-      
-        
-          
-          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
   <a href="/publication/conference-paper/2020-power-mix/" itemprop="name">Power posteriors do not reliably learn the number of components in a finite mixture</a>
   <br />
   <span itemprop="author" class="article-metadata li-cite-author"
@@ -1135,106 +943,6 @@ learning&rdquo;</a>.</p>
   
   
 
-  <a href="/publication/conference-paper/2020-weighted-meta-learning/" itemprop="name">Weighted meta-learning</a>
-  <br />
-  <span itemprop="author" class="article-metadata li-cite-author"
-                  style="color:#1B2631">
-    
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Rishit Sheth</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lester Mackey</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Nicolo Fusi</span>
-
-  </span>
-  <br />
-  <i>
-  arXiv e-print 2003.09465,
-  
-  </i>2020
-  
-
-  <p>
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/pdf/2003.09465.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2003.09465" target="_blank" rel="noopener">
-    
-    arXiv
-  </a>
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-    
-      
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/conference-paper/2020-weighted-meta-learning/#citation" >
-    
-    BibTeX
-  </a>
-
-</p>
-
-  
-</div>
-
-        
-      
-        
-          
-          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
-  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
-
-  
-  
-
   <a href="/publication/conference-paper/2019-finmix/" itemprop="name">Finite mixture models are typically inconsistent for the number of components</a>
   <br />
   <span itemprop="author" class="article-metadata li-cite-author"
@@ -1300,6 +1008,214 @@ learning&rdquo;</a>.</p>
   
   
 
+  <a href="/publication/conference-paper/2018-cmsketch/" itemprop="name">A Bayesian nonparametric view on count-min sketch</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Michael Mitzenmacher</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryan P. Adams</span>
+
+  </span>
+  <br />
+  <i>
+  Advances in Neural Information Processing Systems (NeurIPS),
+  
+  </i>2018
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://papers.nips.cc/paper/8093-a-bayesian-nonparametric-view-on-count-min-sketch.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=5a5NwlVTn_Y&amp;t=7s" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/conference-paper/2018-cmsketch/#citation" >
+    
+    BibTeX
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/1eAbWkjNB2lpw4nypEYu29RBj_mQ2_thg/view?usp=sharing" target="_blank" rel="noopener">
+    
+    Poster
+  </a>
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <a href="/publication/journal-article/2018-traitexch/" itemprop="name">Exchangeable trait allocations</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Trevor Campbell</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tamara Broderick</span>
+
+  </span>
+  <br />
+  <i>
+  Electronic Journal of Statistics,
+  
+  </i>2018
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://projecteuclid.org/download/pdfview_1/euclid.ejs/1532484331" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/abs/1609.09147" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2018-traitexch/#citation" >
+    
+    BibTeX
+  </a>
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
   <a href="/publication/conference-paper/2017-finmix/" itemprop="name">Finite mixture models are typically inconsistent for the number of components</a>
   <br />
   <span itemprop="author" class="article-metadata li-cite-author"
@@ -1336,6 +1252,374 @@ learning&rdquo;</a>.</p>
 <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://approximateinference.org/2017/accepted/CaiEtAl2017.pdf" target="_blank" rel="noopener">
   PDF
 </a>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <a href="/publication/conference-paper/2016-edgeexch/" itemprop="name">Edge-exchangeable graphs and sparsity</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Trevor Campbell</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tamara Broderick</span>
+
+  </span>
+  <br />
+  <i>
+  Advances in Neural Information Processing Systems (NeurIPS),
+  
+  </i>2016
+  
+  <br />
+  <i style="color:gray"><b>ISBA@NeurIPS Award at NeurIPS Workshop on Bayesian Nonparametrics</b>
+  </i>
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://papers.nips.cc/paper/6586-edge-exchangeable-graphs-and-sparsity.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.tamarabroderick.com/nips_2016_spotlight_graphs.html" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/1612.05519" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/conference-paper/2016-edgeexch/#citation" >
+    
+    BibTeX
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/file/d/16gkZPLOTfaZhrM4T6FwB741JNbxLBKFv/view?usp=sharing" target="_blank" rel="noopener">
+    
+    Poster
+  </a>
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <a href="/publication/conference-paper/2016-paintbox/" itemprop="name">Paintboxes and probability functions for edge-exchangeable graphs</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Trevor Campbell</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tamara Broderick</span>
+
+  </span>
+  <br />
+  <i>
+  NeurIPS Workshop on Adaptive and Scalable Nonparametric Methods in Machine Learning,
+  
+  </i>2016
+  
+  <br />
+  <i style="color:gray"><b>Oral presentation</b>
+  </i>
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://d9ae1c0a-a-62cb3a1a-s-sites.googlegroups.com/site/nips2016adaptive/17_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.dianacai.com/pdf/paintbox_workshop_poster.pdf" target="_blank" rel="noopener">
+  Poster
+</a>
+
+
+  
+
+
+
+
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <a href="/publication/journal-article/2016-digraphons/" itemprop="name">Priors on exchangeable directed graphs</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Nathanael Ackerman</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Cameron Freer</span>
+
+  </span>
+  <br />
+  <i>
+  Electronic Journal of Statistics,
+  
+  </i>2016
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://projecteuclid.org/download/pdfview_1/euclid.ejs/1479287229" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://arxiv.org/abs/1510.08440" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/journal-article/2016-digraphons/#citation" >
+    
+    BibTeX
+  </a>
+
+</p>
+
+  
+</div>
+
+        
+      
+        
+          
+          <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <a href="/publication/conference-paper/2015-powerlaws/" itemprop="name">Completely random measures for modeling power laws in graphs</a>
+  <br />
+  <span itemprop="author" class="article-metadata li-cite-author"
+                  style="color:#1B2631">
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Tamara Broderick</span>
+
+  </span>
+  <br />
+  <i>
+  NeurIPS 2015 Workshop on Networks in the Social and Information Sciences,
+  
+  </i>2015
+  
+  <br />
+  <i style="color:gray"><b>Spotlight presentation</b>
+  </i>
+  
+
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
 
 
 
