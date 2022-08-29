@@ -6,7 +6,11 @@
     <description>Recent content in Authors on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://dicai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Diana Cai</title>
       <link>https://dicai.github.io/authors/diana-cai/</link>
@@ -166,7 +170,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/admin/</guid>
-      <description>I am a PhD student at Princeton University in Computer Science. At Princeton, I am advised by Ryan P. Adams and Barbara Engelhardt, and I also collaborate with Tamara Broderick at MIT. I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group. Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.</description>
+      <description>I am a PhD student at Princeton University in Computer Science, advised by Ryan P. Adams and Barbara Engelhardt.I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group. Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.S. in Statistics from the University of Chicago, and an M.A. in Computer Science from Princeton University.</description>
     </item>
     
     <item>
