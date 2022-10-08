@@ -13,7 +13,7 @@
       <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</guid>
-      <description>Citation </description>
+      <description>Citation @inproceedings{cai2022multi, title={Multi-fidelity Monte Carlo: a pseudo-marginal approach}, author={Diana Cai and Ryan P Adams}, booktitle={Advances in Neural Information Processing Systems 35}, year={2022} } </description>
     </item>
     
     <item>
