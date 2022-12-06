@@ -8,7 +8,7 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Reliable machine learning</title>
+      <title>Robust and reliable machine learning</title>
       <link>https://dicai.github.io/project/robust/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
       
@@ -17,12 +17,12 @@
     </item>
     
     <item>
-      <title>Approximate inference</title>
+      <title>Approximate inference &amp; decision making</title>
       <link>https://dicai.github.io/project/inference/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/project/inference/</guid>
-      <description>Accelerating and improving computational algorithms for accurate Bayesian inference</description>
+      <description>Accelerating machine learning algorithms for inference, design, and search</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
     </item>
     
     <item>
-      <title>Bayesian nonparametrics</title>
+      <title>Bayesian nonparametric models &amp; applications</title>
       <link>https://dicai.github.io/project/bnp/</link>
       <pubDate>Mon, 27 Apr 2015 00:00:00 +0000</pubDate>
       

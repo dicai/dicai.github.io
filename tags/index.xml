@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bayesian inference</title>
       <link>https://dicai.github.io/tags/bayesian-inference/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
       <description></description>
@@ -19,7 +19,7 @@
     <item>
       <title>multi-fidelity modeling</title>
       <link>https://dicai.github.io/tags/multi-fidelity-modeling/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/multi-fidelity-modeling/</guid>
       <description></description>
@@ -28,9 +28,27 @@
     <item>
       <title>slice sampling</title>
       <link>https://dicai.github.io/tags/slice-sampling/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/slice-sampling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multi-fidelity methods</title>
+      <link>https://dicai.github.io/tags/multi-fidelity-methods/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/multi-fidelity-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experimental design</title>
+      <link>https://dicai.github.io/tags/experimental-design/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/experimental-design/</guid>
       <description></description>
     </item>
     

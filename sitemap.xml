@@ -2,8 +2,65 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/diana-cai/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dicai.github.io/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/multi-fidelity-modeling/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/</loc>
+    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/4/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/andrew-jones/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/barbara-e.-engelhardt/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-experimental-design/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/multi-fidelity-methods/</loc>
+    <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/didong-li/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/experimental-design/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/journal-article/2022-spatial-genomics-experimental-design/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/talk/2022ness/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
@@ -11,52 +68,10 @@
     <loc>https://dicai.github.io/talk/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/publication_types/3/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/bayesian-inference/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/diana-cai/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/multi-fidelity-modeling/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/ryan-p.-adams/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/slice-sampling/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/</loc>
-    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/authors/aishwarya-mandyam/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/authors/andrew-jones/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/barbara-e.-engelhardt/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/didong-li/</loc>
     <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</loc>
@@ -64,9 +79,6 @@
   </url><url>
     <loc>https://dicai.github.io/talk/2022csp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/4/</loc>
-    <lastmod>2022-01-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2022-birl-aabi/</loc>
     <lastmod>2022-01-27T00:00:00+00:00</lastmod>

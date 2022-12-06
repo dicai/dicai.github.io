@@ -6,11 +6,11 @@
     <description>Recent content in Ryan P. Adams on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/ryan-p.-adams/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/ryan-p.-adams/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-fidelity Monte Carlo: a pseudo-marginal approach</title>
       <link>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</link>
-      <pubDate>Sun, 15 May 2022 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</guid>
       <description>Citation @inproceedings{cai2022multi, title={Multi-fidelity Monte Carlo: a pseudo-marginal approach}, author={Diana Cai and Ryan P Adams}, booktitle={Advances in Neural Information Processing Systems 35}, year={2022} } </description>
