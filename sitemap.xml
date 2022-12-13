@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <loc>https://dicai.github.io/tags/applications/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/project/biomedical/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/project/materials/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/project/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/tags/</loc>
+    <lastmod>2022-12-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/1/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/</loc>
@@ -12,9 +30,6 @@
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/diana-cai/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/tags/multi-fidelity-modeling/</loc>
@@ -35,9 +50,6 @@
     <loc>https://dicai.github.io/tags/slice-sampling/</loc>
     <lastmod>2022-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/tags/</loc>
-    <lastmod>2022-12-05T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/publication_types/4/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -52,6 +64,9 @@
   </url><url>
     <loc>https://dicai.github.io/tags/multi-fidelity-methods/</loc>
     <lastmod>2022-11-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2022-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/didong-li/</loc>
     <lastmod>2022-11-01T00:00:00+00:00</lastmod>
@@ -88,9 +103,6 @@
   </url><url>
     <loc>https://dicai.github.io/talk/2021ness/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/1/</loc>
-    <lastmod>2021-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/david-m.-zoltowski/</loc>
     <lastmod>2021-09-28T00:00:00+00:00</lastmod>
@@ -241,9 +253,6 @@
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2017-finmix/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/project/</loc>
-    <lastmod>2017-04-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/project/robust/</loc>
     <lastmod>2017-04-27T00:00:00+00:00</lastmod>

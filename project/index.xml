@@ -6,7 +6,26 @@
     <description>Recent content in Projects on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Apr 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Machine learning for biomedical health applications</title>
+      <link>https://dicai.github.io/project/biomedical/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/project/biomedical/</guid>
+      <description>With researchers at Princeton, Stanford, and UNC, I am collaborating on several application areas related to the biomedical health sciences:
+ Experimental design for spatial genomics Bayesian inverse reinforcement learning for health applications Efficient online changepoint detection in time series  </description>
+    </item>
+    
+    <item>
+      <title>Machine learning for material science</title>
+      <link>https://dicai.github.io/project/materials/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/project/materials/</guid>
+      <description>Machine learning has tremendous prediction to accelerate the design of novel materials. I currently collaborate with researchers at Princeton, the Colorado School of Mines, UIUC, and WashU on applications of machine learning and probabilistic methods to material science problems. We are developing new methods for active search, Markov Chain Monte Carlo simulation, and combinatorial design. Current application areas include machine learning for alloy design, ML-assisted property prediction, and topology optimization of structural materials.</description>
+    </item>
+    
     <item>
       <title>Robust and reliable machine learning</title>
       <link>https://dicai.github.io/project/robust/</link>

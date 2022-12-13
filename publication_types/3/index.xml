@@ -6,16 +6,7 @@
     <description>Recent content in 3 on Diana R. Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Multi-fidelity Monte Carlo: a pseudo-marginal approach</title>
-      <link>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</link>
-      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-mcmc/</guid>
-      <description>Citation @inproceedings{cai2022multi, title={Multi-fidelity Monte Carlo: a pseudo-marginal approach}, author={Diana Cai and Ryan P Adams}, booktitle={Advances in Neural Information Processing Systems 35}, year={2022} } </description>
-    </item>
-    
+    <lastBuildDate>Tue, 01 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimizing the design of spatial genomics studies and atlases</title>
       <link>https://dicai.github.io/publication/journal-article/2022-spatial-genomics-experimental-design/</link>
