@@ -5,19 +5,25 @@
     <loc>https://dicai.github.io/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/talk/2023msrnyc/</loc>
-    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://dicai.github.io/talk/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/talk/2023cmustats/</loc>
+    <loc>https://dicai.github.io/talk/2023flatironsymposium/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/talk/2023gpseminar/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/talk/2023msrnyc/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/talk/2023harvardstats/</loc>
     <lastmod>2022-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/authors/aishwarya-mandyam/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/andrew-jones/</loc>
@@ -29,6 +35,9 @@
     <loc>https://dicai.github.io/authors/barbara-e.-engelhardt/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dicai.github.io/authors/diana-cai/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,6 +45,9 @@
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/tags/experimental-design/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/publication/journal-article/2022-spatial-genomics-experimental-design/</loc>
@@ -91,15 +103,6 @@
   </url><url>
     <loc>https://dicai.github.io/talk/2022ness/</loc>
     <lastmod>2022-03-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/authors/aishwarya-mandyam/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/talk/2022csp/</loc>
     <lastmod>2020-08-30T00:00:00+00:00</lastmod>
