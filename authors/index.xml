@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on Diana R. Cai</title>
+    <title>Authors on Diana Cai</title>
     <link>https://dicai.github.io/authors/</link>
-    <description>Recent content in Authors on Diana R. Cai</description>
+    <description>Recent content in Authors on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
@@ -166,7 +166,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/authors/admin/</guid>
-      <description>I am a PhD student at Princeton University in Computer Science, advised by Ryan P. Adams and Barbara Engelhardt.I am a member of the Laboratory for Intelligent Probabilistic Systems Group and the Biological and Evolutionary Explorations using Hierarchical Integrative Statistical Models Group. Previously, I received an A.B. in Computer Science and Statistics from Harvard University, an M.S. in Statistics from the University of Chicago, and an M.A. in Computer Science from Princeton University.</description>
+      <description>I am a research fellow in the Center for Computational Mathematics at the Flatiron Institute, where I am a member of the machine learning group. I am broadly interested in developing robust and reliable methods for data analysis and understanding their properties. I&amp;rsquo;m particularly interested in probabilistic inference and uncertainty quantification, with a focus on Bayesian methods under model misspecification, approximate inference, active learning, and applications to material science and biomedical data science.</description>
     </item>
     
     <item>
