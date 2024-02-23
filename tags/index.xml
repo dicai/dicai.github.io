@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayesian inference</title>
+      <link>https://dicai.github.io/tags/bayesian-inference/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>score matching</title>
+      <link>https://dicai.github.io/tags/score-matching/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/score-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variational inference</title>
+      <link>https://dicai.github.io/tags/variational-inference/</link>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experimental design</title>
+      <link>https://dicai.github.io/tags/experimental-design/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/experimental-design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thesis</title>
+      <link>https://dicai.github.io/tags/thesis/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/thesis/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Bayesian inverse reinforcement learning</title>
       <link>https://dicai.github.io/tags/bayesian-inverse-reinforcement-learning/</link>
@@ -17,29 +62,11 @@
     </item>
     
     <item>
-      <title>experimental design</title>
-      <link>https://dicai.github.io/tags/experimental-design/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/experimental-design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>applications</title>
       <link>https://dicai.github.io/tags/applications/</link>
       <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/applications/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian inference</title>
-      <link>https://dicai.github.io/tags/bayesian-inference/</link>
-      <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
       <description></description>
     </item>
     
@@ -292,15 +319,6 @@
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/preprint/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>thesis</title>
-      <link>https://dicai.github.io/tags/thesis/</link>
-      <pubDate>Thu, 01 May 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/thesis/</guid>
       <description></description>
     </item>
     

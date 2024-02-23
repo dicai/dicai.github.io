@@ -6,13 +6,22 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TBD</title>
-      <link>https://dicai.github.io/talk/2023flatironsymposium/</link>
-      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <title>Black-box variational inference using Gaussian score matching</title>
+      <link>https://dicai.github.io/talk/2024isba/</link>
+      <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://dicai.github.io/talk/2023flatironsymposium/</guid>
+      <guid>https://dicai.github.io/talk/2024isba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic inference when the model is wrong</title>
+      <link>https://dicai.github.io/talk/2023aabi/</link>
+      <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/talk/2023aabi/</guid>
       <description></description>
     </item>
     
@@ -26,16 +35,7 @@
     </item>
     
     <item>
-      <title>Machine learning for scientific discovery: is refining my model worth the cost?</title>
-      <link>https://dicai.github.io/talk/2023msrnyc/</link>
-      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/talk/2023msrnyc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning for scientific discovery: is refining my model worth the cost?</title>
+      <title>Probabilistic inference under misspecification</title>
       <link>https://dicai.github.io/talk/2023harvardstats/</link>
       <pubDate>Mon, 23 Jan 2023 00:00:00 +0000</pubDate>
       
