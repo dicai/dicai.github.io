@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -29,10 +27,10 @@
   
     
   
-  <meta name="description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at the Flatiron Institute.">
+  <meta name="description" content="Active learning is a valuable tool for efficiently exploring complex spaces, finding a variety of uses in materials science.  However, the determination of convex hulls for phase diagrams does not neatly fit into traditional active learning approaches due to their global nature.  Specifically, the thermodynamic stability of a material is not a function of the energies associated with a single composition, including information from all other competing compositions.  Here we present Convex Hull-aware Active Learning (CAL), a novel Bayesian algorithm that chooses experiments to minimize the uncertainty in the convex hull.  CAL prioritizes compositions that are close to or on the hull, leaving significant uncertainty in other compositions that are quickly determined to be irrelevant to the convex hull.  The convex hull can thus be predicted with significantly fewer observations than approaches that focus solely on energy.  Intrinsic to the Bayesian approach is uncertainty quantification in both the convex hull and all subsequent predictions (e.g., stability and chemical potential).  By providing increased search efficiency and uncertainty quantification, CAL can be readily incorporated into the emerging paradigm of uncertainty-based workflows for thermodynamic prediction.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/journal-article/2024-convex-hull-active-search/">
 
   
 
@@ -102,15 +100,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Diana Cai">
-  <link rel="feed" href="/authors/index.xml" type="application/rss+xml" title="Diana Cai">
-  
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/authors/">
+  <link rel="canonical" href="https://dicai.github.io/publication/journal-article/2024-convex-hull-active-search/">
 
   
   
@@ -125,19 +120,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana Cai">
-  <meta property="og:url" content="https://dicai.github.io/authors/">
-  <meta property="og:title" content="Authors | Diana Cai">
-  <meta property="og:description" content="Research papers and presentations of Diana Cai, researcher in machine learning and statistics at the Flatiron Institute."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/journal-article/2024-convex-hull-active-search/">
+  <meta property="og:title" content="Probabilistic prediction of material stability: integrating convex hulls into Bayesian active learning | Diana Cai">
+  <meta property="og:description" content="Active learning is a valuable tool for efficiently exploring complex spaces, finding a variety of uses in materials science.  However, the determination of convex hulls for phase diagrams does not neatly fit into traditional active learning approaches due to their global nature.  Specifically, the thermodynamic stability of a material is not a function of the energies associated with a single composition, including information from all other competing compositions.  Here we present Convex Hull-aware Active Learning (CAL), a novel Bayesian algorithm that chooses experiments to minimize the uncertainty in the convex hull.  CAL prioritizes compositions that are close to or on the hull, leaving significant uncertainty in other compositions that are quickly determined to be irrelevant to the convex hull.  The convex hull can thus be predicted with significantly fewer observations than approaches that focus solely on energy.  Intrinsic to the Bayesian approach is uncertainty quantification in both the convex hull and all subsequent predictions (e.g., stability and chemical potential).  By providing increased search efficiency and uncertainty quantification, CAL can be readily incorporated into the emerging paradigm of uncertainty-based workflows for thermodynamic prediction."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2024-02-22T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2024-02-05T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2024-02-05T00:00:00&#43;00:00">
   
 
   
 
   
 
-  <title>Authors | Diana Cai</title>
+  <title>Probabilistic prediction of material stability: integrating convex hulls into Bayesian active learning | Diana Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -308,8 +305,9 @@
   </div>
 </nav>
 
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
-
+  
 
 
 
@@ -323,72 +321,243 @@
 
 
   
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">Probabilistic prediction of material stability: integrating convex hulls into Bayesian active learning</h1>
+
+  
+
+  
+    
+
+
+
+<meta content="2024-02-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-02-05 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Andrew Novick*</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b>*</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Quan Nguyen</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Roman Garnett</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ryan Adams</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>February 2024</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2402.15582.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
   
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Authors</h1>
-
   
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2402.15582" target="_blank" rel="noopener">
+    
+    arXiv
+  </a>
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Active learning is a valuable tool for efficiently exploring complex spaces, finding a variety of uses in materials science.  However, the determination of convex hulls for phase diagrams does not neatly fit into traditional active learning approaches due to their global nature.  Specifically, the thermodynamic stability of a material is not a function of the energies associated with a single composition, including information from all other competing compositions.  Here we present Convex Hull-aware Active Learning (CAL), a novel Bayesian algorithm that chooses experiments to minimize the uncertainty in the convex hull.  CAL prioritizes compositions that are close to or on the hull, leaving significant uncertainty in other compositions that are quickly determined to be irrelevant to the convex hull.  The convex hull can thus be predicted with significantly fewer observations than approaches that focus solely on energy.  Intrinsic to the Bayesian approach is uncertainty quantification in both the convex hull and all subsequent predictions (e.g., stability and chemical potential).  By providing increased search efficiency and uncertainty quantification, CAL can be readily incorporated into the emerging paradigm of uncertainty-based workflows for thermodynamic prediction.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+
+            
+            
+            <a href="/publication/#3">
+              Preprint
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">arXiv preprint</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+<div class="article-tags">
   
-
-  <ul>
-    
-    
-      
-      <li><a href="https://dicai.github.io/authors/charles-c.-margossian/">Charles C. Margossian</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/chirag-modi/">Chirag Modi</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/david-m.-blei/">David M. Blei</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/diana-cai/">Diana Cai</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/lawrence-k.-saul/">Lawrence K. Saul</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/loucas-pillaud-vivien/">Loucas Pillaud-Vivien</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/robert-m.-gower/">Robert M. Gower</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/andrew-novick/">Andrew Novick*</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/quan-nguyen/">Quan Nguyen</a></li>
-    
-      
-      <li><a href="https://dicai.github.io/authors/roman-garnett/">Roman Garnett</a></li>
-    
-  </ul>
-
+  <a class="badge badge-light" href="/tags/material-science/">material science</a>
   
-<nav>
-  <ul class="pagination justify-content-center">
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/2/">&raquo;</a></li>
-    
-  </ul>
-</nav>
-
-
+  <a class="badge badge-light" href="/tags/active-search/">active search</a>
+  
 </div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
+      
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  </div>
+</div>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
