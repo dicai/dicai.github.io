@@ -8,11 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Black-box variational inference using Gaussian score matching</title>
+      <title>Batch and match: black-box variational inference using a score-based divergence</title>
       <link>https://dicai.github.io/talk/2024isba/</link>
       <pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/talk/2024isba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Batch and match: black-box variational inference using a score-based divergence</title>
+      <link>https://dicai.github.io/talk/2024ness/</link>
+      <pubDate>Fri, 24 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/talk/2024ness/</guid>
       <description></description>
     </item>
     

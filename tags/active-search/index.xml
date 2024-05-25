@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>active search on Diana Cai</title>
+    <link>https://dicai.github.io/tags/active-search/</link>
+    <description>Recent content in active search on Diana Cai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/active-search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Probabilistic prediction of material stability: integrating convex hulls into Bayesian active learning</title>
+      <link>https://dicai.github.io/publication/journal-article/2024-convex-hull-active-search/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/journal-article/2024-convex-hull-active-search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
