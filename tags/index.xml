@@ -6,47 +6,11 @@
     <description>Recent content in Tags on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bayesian inference</title>
-      <link>https://dicai.github.io/tags/bayesian-inference/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>score matching</title>
-      <link>https://dicai.github.io/tags/score-matching/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/score-matching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>variational inference</title>
-      <link>https://dicai.github.io/tags/variational-inference/</link>
-      <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/variational-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>experimental design</title>
-      <link>https://dicai.github.io/tags/experimental-design/</link>
-      <pubDate>Wed, 01 May 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/experimental-design/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>active search</title>
       <link>https://dicai.github.io/tags/active-search/</link>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/active-search/</guid>
       <description></description>
@@ -55,9 +19,45 @@
     <item>
       <title>material science</title>
       <link>https://dicai.github.io/tags/material-science/</link>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/material-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian inference</title>
+      <link>https://dicai.github.io/tags/bayesian-inference/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>score matching</title>
+      <link>https://dicai.github.io/tags/score-matching/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/score-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variational inference</title>
+      <link>https://dicai.github.io/tags/variational-inference/</link>
+      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experimental design</title>
+      <link>https://dicai.github.io/tags/experimental-design/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/experimental-design/</guid>
       <description></description>
     </item>
     
