@@ -6,7 +6,16 @@
     <description>Recent content in 4 on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Active stable crystal design with and convex hull modeling</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-active-phase-mapping-method/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-active-phase-mapping-method/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Multi-fidelity Bayesian experimental design using power posteriors</title>
       <link>https://dicai.github.io/publication/conference-paper/2022-multi-fidelity-experimental-design/</link>

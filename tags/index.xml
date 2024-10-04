@@ -6,7 +6,43 @@
     <description>Recent content in Tags on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>multi-fidelity methods</title>
+      <link>https://dicai.github.io/tags/multi-fidelity-methods/</link>
+      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/multi-fidelity-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian inference</title>
+      <link>https://dicai.github.io/tags/bayesian-inference/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>score matching</title>
+      <link>https://dicai.github.io/tags/score-matching/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/score-matching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>variational inference</title>
+      <link>https://dicai.github.io/tags/variational-inference/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/tags/variational-inference/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>active search</title>
       <link>https://dicai.github.io/tags/active-search/</link>
@@ -22,33 +58,6 @@
       <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/material-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian inference</title>
-      <link>https://dicai.github.io/tags/bayesian-inference/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/bayesian-inference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>score matching</title>
-      <link>https://dicai.github.io/tags/score-matching/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/score-matching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>variational inference</title>
-      <link>https://dicai.github.io/tags/variational-inference/</link>
-      <pubDate>Mon, 22 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/variational-inference/</guid>
       <description></description>
     </item>
     
@@ -103,15 +112,6 @@
       <pubDate>Mon, 05 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/tags/slice-sampling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>multi-fidelity methods</title>
-      <link>https://dicai.github.io/tags/multi-fidelity-methods/</link>
-      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/tags/multi-fidelity-methods/</guid>
       <description></description>
     </item>
     
