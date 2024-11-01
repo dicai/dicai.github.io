@@ -6,7 +6,16 @@
     <description>Recent content in Barbara E. Engelhardt on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/barbara-e.-engelhardt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/authors/barbara-e.-engelhardt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kernel density Bayesian inverse reinforcement learning</title>
+      <link>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</guid>
+      <description>A preliminary version appeared in the Symposium on Advances in Approximate Bayesian Inference, 2022.</description>
+    </item>
+    
     <item>
       <title>Optimizing the design of spatial genomics studies</title>
       <link>https://dicai.github.io/publication/journal-article/2024-spatial-genomics-experimental-design/</link>
@@ -14,15 +23,6 @@
       
       <guid>https://dicai.github.io/publication/journal-article/2024-spatial-genomics-experimental-design/</guid>
       <description> </description>
-    </item>
-    
-    <item>
-      <title>Kernel density Bayesian inverse reinforcement learning</title>
-      <link>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</link>
-      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicai.github.io/publication/conference-paper/2022-bayesian-irl-kernel-density/</guid>
-      <description>A preliminary version appeared in the Symposium on Advances in Approximate Bayesian Inference, 2022.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@
     <item>
       <title>Efficient Bayesian inverse reinforcement learning via conditional kernel density estimation</title>
       <link>https://dicai.github.io/publication/conference-paper/2022-birl-aabi/</link>
-      <pubDate>Thu, 27 Jan 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/publication/conference-paper/2022-birl-aabi/</guid>
       <description> </description>
