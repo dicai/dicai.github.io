@@ -6,7 +6,16 @@
     <description>Recent content in Recent &amp; Upcoming Talks on Diana Cai</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://dicai.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Batch and match: score-based approaches to black-box variational inference</title>
+      <link>https://dicai.github.io/talk/2024montecarlo/</link>
+      <pubDate>Tue, 12 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/talk/2024montecarlo/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Batch and match: black-box variational inference using a score-based divergence</title>
       <link>https://dicai.github.io/talk/2024isba/</link>
