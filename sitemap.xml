@@ -11,10 +11,13 @@
     <loc>https://dicai.github.io/talk/2025postbayes/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://dicai.github.io/talk/2025lognyc/</loc>
+    <lastmod>2025-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://dicai.github.io/talk/2025birs/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <loc>https://dicai.github.io/publication_types/1/</loc>
     <lastmod>2025-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/</loc>
@@ -52,9 +55,6 @@
   </url><url>
     <loc>https://dicai.github.io/talk/2024montecarlo/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://dicai.github.io/publication_types/1/</loc>
-    <lastmod>2024-10-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/authors/charles-c.-margossian/</loc>
     <lastmod>2024-10-31T00:00:00+00:00</lastmod>
@@ -283,6 +283,9 @@
   </url><url>
     <loc>https://dicai.github.io/publication/conference-paper/2020-weighted-meta-learning-wkshp/</loc>
     <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://dicai.github.io/publication_types/3/</loc>
+    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://dicai.github.io/tags/learning-from-multiple-sources/</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
