@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="[slides](https://drive.google.com/file/d/1wLp3UkI6DmsPvq85zgLDq7MunbvY1aRR/view)">
+  <meta name="description" content="We introduce a highly expressive yet distinctly tractable family for black box variational inference (BBVI). Each member of this family is a weighted product of experts (PoE), and each weighted expert in the product is proportional to a multivariate $t$-distribution. These products of experts can model distributions with skew, heavy tails, and multiple modes, but to use them for BBVI, we must be able to sample from their densities. We show how to do this by reformulating these products of experts as latent variable models with auxiliary Dirichlet random variables. These Dirichlet variables emerge from a Feynman identity, originally developed for loop integrals in quantum field theory, that expresses the product of multiple fractions (or in our case, $t$-distributions) as an integral over the simplex. We leverage this simplicial latent space to draw weighted samples from these products of experts---samples which BBVI then uses to find the PoE that best approximates a target density. Given a collection of experts, we derive an iterative procedure to optimize the exponents that determine their geometric weighting in the PoE. At each iteration, this procedure minimizes a regularized Fisher divergence to match the scores of the variational and target densities at a batch of samples drawn from the current approximation.  This minimization reduces to a convex quadratic program, and we prove under general conditions that these updates converge exponentially fast to a nearly optimal weighting of experts. We conclude by evaluating this approach on a variety of synthetic and real-world target distributions.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/talk/2025uai/">
+  <link rel="alternate" hreflang="en-us" href="https://dicai.github.io/publication/conference-paper/2025-fisher-meets-feynman/">
 
   
 
@@ -105,7 +105,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://dicai.github.io/talk/2025uai/">
+  <link rel="canonical" href="https://dicai.github.io/publication/conference-paper/2025-fisher-meets-feynman/">
 
   
   
@@ -120,21 +120,21 @@
   <meta property="twitter:creator" content="@dianarycai">
   
   <meta property="og:site_name" content="Diana Cai">
-  <meta property="og:url" content="https://dicai.github.io/talk/2025uai/">
-  <meta property="og:title" content="Modern Approximate Inference: Variational Methods and Beyond (tutorial) | Diana Cai">
-  <meta property="og:description" content="[slides](https://drive.google.com/file/d/1wLp3UkI6DmsPvq85zgLDq7MunbvY1aRR/view)"><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://dicai.github.io/publication/conference-paper/2025-fisher-meets-feynman/">
+  <meta property="og:title" content="Fisher meets Feyman: score-based variational inference with a product of experts | Diana Cai">
+  <meta property="og:description" content="We introduce a highly expressive yet distinctly tractable family for black box variational inference (BBVI). Each member of this family is a weighted product of experts (PoE), and each weighted expert in the product is proportional to a multivariate $t$-distribution. These products of experts can model distributions with skew, heavy tails, and multiple modes, but to use them for BBVI, we must be able to sample from their densities. We show how to do this by reformulating these products of experts as latent variable models with auxiliary Dirichlet random variables. These Dirichlet variables emerge from a Feynman identity, originally developed for loop integrals in quantum field theory, that expresses the product of multiple fractions (or in our case, $t$-distributions) as an integral over the simplex. We leverage this simplicial latent space to draw weighted samples from these products of experts---samples which BBVI then uses to find the PoE that best approximates a target density. Given a collection of experts, we derive an iterative procedure to optimize the exponents that determine their geometric weighting in the PoE. At each iteration, this procedure minimizes a regularized Fisher divergence to match the scores of the variational and target densities at a batch of samples drawn from the current approximation.  This minimization reduces to a convex quadratic program, and we prove under general conditions that these updates converge exponentially fast to a nearly optimal weighting of experts. We conclude by evaluating this approach on a variety of synthetic and real-world target distributions."><meta property="og:image" content="https://dicai.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2025-01-01T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2025-09-17T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2025-01-01T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2025-09-17T00:00:00&#43;00:00">
   
 
   
 
-  <title>Modern Approximate Inference: Variational Methods and Beyond (tutorial) | Diana Cai</title>
+  
+
+  <title>Fisher meets Feyman: score-based variational inference with a product of experts | Diana Cai</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -305,7 +305,7 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -326,7 +326,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Modern Approximate Inference: Variational Methods and Beyond (tutorial)</h1>
+  <h1 itemprop="name">Fisher meets Feyman: score-based variational inference with a product of experts</h1>
 
   
 
@@ -335,14 +335,34 @@
 
 
 
-<meta content="2025-07-21 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2025-01-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2025-09-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-09-17 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Diana Cai</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Robert M. Gower</span>, <span itemprop="author name" itemtype="http://schema.org/Person">David M. Blei</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lawrence K. Saul</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>September 2025</time>
+  </span>
   
 
   
@@ -377,6 +397,37 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+</div>
 
 
   
@@ -387,48 +438,40 @@
   <div class="article-container">
 
     
-      <br>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">We introduce a highly expressive yet distinctly tractable family for black box variational inference (BBVI). Each member of this family is a weighted product of experts (PoE), and each weighted expert in the product is proportional to a multivariate $t$-distribution. These products of experts can model distributions with skew, heavy tails, and multiple modes, but to use them for BBVI, we must be able to sample from their densities. We show how to do this by reformulating these products of experts as latent variable models with auxiliary Dirichlet random variables. These Dirichlet variables emerge from a Feynman identity, originally developed for loop integrals in quantum field theory, that expresses the product of multiple fractions (or in our case, $t$-distributions) as an integral over the simplex. We leverage this simplicial latent space to draw weighted samples from these products of experts&mdash;samples which BBVI then uses to find the PoE that best approximates a target density. Given a collection of experts, we derive an iterative procedure to optimize the exponents that determine their geometric weighting in the PoE. At each iteration, this procedure minimizes a regularized Fisher divergence to match the scores of the variational and target densities at a batch of samples drawn from the current approximation.  This minimization reduces to a convex quadratic program, and we prove under general conditions that these updates converge exponentially fast to a nearly optimal weighting of experts. We conclude by evaluating this approach on a variety of synthetic and real-world target distributions.</p>
     
 
+    
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Jul 21, 2025
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://www.auai.org/uai2025/tutorials" target="_blank" rel="noopener">
-            Conference on Uncertainty in Artificial Intelligence
+            
+
+            
+            
+            <a href="/publication/#1">
+              Conference paper
             </a>
+            
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
     <div class="d-md-none space-below"></div>
+    
 
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">UAI, Rio de Janeiro, Brazil</div>
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Advances in Neural Information Processing Systems (NeurIPS)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -438,22 +481,34 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/variational-inference/">variational inference</a>
+  
+  <a class="badge badge-light" href="/tags/score-matching/">score matching</a>
+  
+  <a class="badge badge-light" href="/tags/bayesian-inference/">Bayesian inference</a>
+  
+</div>
+
 
     
 
 
+
+
+
+
+
+
+  
+  
     
-
-
-
-
-
-
-
-
+  
   
 
 
@@ -463,82 +518,13 @@
   
   <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu8721cccae7ee5ec42304ce1f1f0b71fa_1291070_250x250_fill_q95_lanczos_center.jpg" itemprop="image" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="/">Diana Cai</a></h5>
+      <h5 class="card-title" itemprop="name"><a href="/"></a></h5>
       
-      <h6 class="card-subtitle">Center for Computational Mathematics</h6>
-      <p class="card-text" itemprop="description">I am broadly interested in machine learning and statistics, and in particular, developing robust and reliable methods for modeling and inference.</p>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=WrLjBYgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/dianarycai" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/dicai" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
         
       </ul>
     </div>
