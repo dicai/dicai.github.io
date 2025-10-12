@@ -27,6 +27,16 @@ Experimental design for spatial genomics Bayesian inverse reinforcement learning
     </item>
     
     <item>
+      <title>Variational inference with score matching</title>
+      <link>https://dicai.github.io/project/vi/</link>
+      <pubDate>Sun, 27 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/project/vi/</guid>
+      <description>Variational inference (VI) approximates an intractable target distribution with the closest member of a tractable family. A central challenge in black-box VI is that standard implementations, which minimize the KL divergence using stochastic gradient descent (SGD), converge slowly due to gradient noise and sensitivity to learning parameters. These issues become more pronounced when using expressive variational families, which are necessary for accurate inference in complex scientific problems.
+My work shows that score matching&amp;mdash;aligning the gradients of the log densities of the target model and variational approximation&amp;mdash;enables faster, more reliable optimization, often yielding closed-form or convex subproblems.</description>
+    </item>
+    
+    <item>
       <title>Robust and reliable machine learning</title>
       <link>https://dicai.github.io/project/robust/</link>
       <pubDate>Thu, 27 Apr 2017 00:00:00 +0000</pubDate>
@@ -50,6 +60,15 @@ Experimental design for spatial genomics Bayesian inverse reinforcement learning
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicai.github.io/project/structured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relational data modeling</title>
+      <link>https://dicai.github.io/project/test/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicai.github.io/project/test/</guid>
       <description></description>
     </item>
     
